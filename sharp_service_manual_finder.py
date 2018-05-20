@@ -13,7 +13,7 @@ wiper()
 
 print('''
                           SERVICE MANUALS
-                          
+
 1) MX-2314N    7) MX-2010U    8) MX-2301N             13) MX-M283 N
    MX-2614N       MX-2310U       MX-2600N/3100N           MX-M363 N/U
    MX-3114N       MX-3111U       MX-2600G/3100G           MX-M453 N/U
@@ -35,7 +35,7 @@ print('''
 
 6) MX-2300/2700 G             12)  MX-3500N/4500N
    MX-2300/2700 N                  MX-3501N/4501N
-   
+
 ''')
 
 model_num = None
@@ -86,8 +86,3 @@ elif model_num == '15':
     os.chdir('/media/pi/500GB_HDD/manuals/Sharp/SM')
     webbrowser.open_new('MX4140N-4141-5140-MX5141 serv.pdf')
 
-    
-
-    
-
-    
