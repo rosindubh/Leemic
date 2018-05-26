@@ -11,7 +11,7 @@ source = ['/home/pi/my_python_programs']
 
 # 2 The backup must be stored in a
 # main backup directory.
-target_dir = '/media/pi/500GB_HDD/pi_tablet_backup/my_python_programs/'
+target_dir = '/media/pi/512Mb1'
 
 # 3 The files are backed up into a zip file.
 # 4 The name of the zip archive is the current date and time
