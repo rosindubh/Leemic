@@ -16,7 +16,7 @@ def main_menu():
 
 
     # menu
-    print('''\t\t\t\t\t\t\t\t\t  SHARP MAIN MENU
+    print('''\t\t\t\t\t\t\t\t\t        MAIN MENU
 
 
 
@@ -26,10 +26,11 @@ def main_menu():
 
 
 
-\t\t\t\t\t\t\t\t\t(1)   Handy Guides
-    \t\t\t\t\t\t\t\t\t(2)   Service Manuals
-    \t\t\t\t\t\t\t\t\t(3)   Parts Catalogues
-    \t\t\t\t\t\t\t\t\t(4)   Peripherals
+\t\t\t\t\t\t\t\t\t(1)   Sharp Handy Guides
+    \t\t\t\t\t\t\t\t\t(2)   Sharp Service Manuals
+    \t\t\t\t\t\t\t\t\t(3)   Sharp Parts Catalogues
+    \t\t\t\t\t\t\t\t\t(4)   Sharp Peripherals
+    \t\t\t\t\t\t\t\t\t(5)   AST solicitors IP addresses
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -47,6 +48,8 @@ def main_menu():
         parts_guides()
     elif user_choice == '4':
         peripherals()
+    elif user_choice == '5':
+        ast_ip()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -112,6 +115,7 @@ def handy_guides():
 \t\t\t\t(42) MX-M904\t\tMX-M1054\t\tMX-M1024\t\tMX-M1055\tMX-M1205
 \t\t\t\t(43) MX-B355W\t\tMX-B455W
 \t\t\t\t(44) MX-M364N\t\tMX-M365N\t\tMX-M465N\t\tMX-M565N
+\t\t\t\t(45) MX-M283N\t\tMX-M363N\t\tMX-M453N\t\tMX-M503N
 \t\t\n\n\n\n\n\t\t\t\t(999) MAIN MENU''')
  
 
@@ -195,6 +199,9 @@ def handy_guides():
         elif model_number == '44':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MX M364-365N Handy Guide.pdf')
             handy_guides()
+        elif model_number == '45':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M283-363-453-503/Handy Guide/Handyguide Version 1 August 2009.pdf')
+            handy_guides()
         elif model_number == '999':
             main_menu()
         else:
@@ -254,6 +261,8 @@ def service_manuals():
 \t\t\t\t(40) MX-M1055\tMX-M1205
 \t\t\t\t(41) MX-B355W\tMX-B455W
 \t\t\t\t(42) MX-M365N\tMX-M364N\tMX-M465N\tMX-M464N\tMX-M565N\tMX-M564N
+\t\t\t\t(43) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N\tMX-M362N
+\t\t\t\t(43) MX-M452N\tMX-M502N
 \t\t\n\n\n\n\n
 
 \t\t\t\t(999) MAIN MENU''')
@@ -328,6 +337,9 @@ def service_manuals():
         elif model_number == '42':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MX M364-365N Service Manual.pdf')
             service_manuals()
+        elif model_number == '43':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M283-363-453-503/Service Manual/Updated Service Manual - June 10.pdf')
+            service_manuals()
 
         elif model_number == '999':
             main_menu()
@@ -380,19 +392,17 @@ def parts_guides():
 \t\t\t\t(30) MX-4140N\tMX-5140N\tMX-4141N\tMX-5141N
 
 
-
-
 \t\t\t\t(31) MX-3050N\tMX-3550N\tMX-4050N\tMX-5050N\tMX-6050N
 \t\t\t\t(32) MX-4070N\tMX-3570N\tMX-3070N\tMX-3560N\tMX-3060N\tMX-4050N\tMX-3550N\tMX-3050N
 \t\t\t\t(32) MX-5070N\tMX-6070N
 \t\t\t\t(33) MX-6540FN\tMX-7040N\tMX-6240N
 
 
-
-
 \t\t\t\t(40) MX-M1055\tMX-M1205
 \t\t\t\t(41) MX-B355W\tMX-B455W
 \t\t\t\t(42) MX-M364N\tMX-M365N\tMX-M464N\tMX-M465\t\tMX-M564N\tMX-M565N
+\t\t\t\t(43) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N
+\t\t\t\t(43) MX-M362N\tMX-M452N\tMX-M502N
 \t\t\n\n\n\n\n\t\t\t\t(999) MAIN MENU''')
 
 
@@ -470,6 +480,9 @@ def parts_guides():
         elif model_number == '42':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MXM364-M365-M464-M465-M564-M565_PG.pdf')
             parts_guides()
+        elif model_number == '43':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M283-363-453-503/Parts Guide/Revised Parts Guide Main Machine - Dec 10.pdf')
+            parts_guides()
         elif model_number == '999':
             main_menu()
         else:
@@ -542,6 +555,26 @@ def peripherals():
             peripherals()
     except ValueError:
         peripherals()
+
+
+    # short script to display AST solicitors IP addresses
+    # phil welsby 14th december 2018
+
+
+
+def ast_ip():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    # open file containing IP addresses
+    ip_address_file = open('/home/phil/my_python_programs/AST_solicitors_IP_addresses/AST_IP_ADDRESSES', 'r')
+    whole_file = ip_address_file.read()
+    print(whole_file)
+    ip_address_file.close()
+    input('Enter to continue')
+    main_menu()
+
 
 
 

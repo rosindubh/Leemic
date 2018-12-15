@@ -1,0 +1,65 @@
+1Fault: won't print from macintosh after osx upgrade 
+2Fault: install 
+3Fault: re-site 
+4Fault: loud squeaking noise 
+5Fault: prints coming out duplex, now not printing at all 
+6Fault: lines 
+7Fault: show customer how to add new users into address book 
+8Fault: deliver to customers house 
+9Fault: F1-08 and grinding noise 
+10Fault: won't print from one PC 
+11Fault: jam in fuser image not fusing
+12Fault: set up scan to folder and printing 
+13Fault: jamming 
+14Fault: jamming 
+15Fault: black marks 
+16Fault: can't scan to email, says network error call administrator 
+17Fault: jamming 
+18Fault: rtf staple cartridge 
+19Fault: rtf fuser 
+20Fault: noise but working 
+21Fault: not printing 
+22Fault: rtf yellow dev unit 
+23Fault: L4-17 error 
+24Fault: marks 
+25Fault: ghosting and creasing envelopes 
+26Fault: errror code e7-80 scn-mcp pwb faulty 
+27Fault: jam no jam 
+28Fault: h5-01 
+29Fault: black blobs 
+30Fault: installation 
+31Fault: jamming in adf 
+32Fault: not printing on the right paper 
+33Fault: L4-18 error code 
+34Fault: E4-18 error code 
+35Fault: maintenance call TA 
+36Fault: E4-17 bk drum rotation error 
+37Fault: black streaks 
+38Fault: constant jamming 
+39Fault: rtf parts 
+40Fault: H2-03 
+41Fault: rtf 
+42Fault: maintenance code TA 
+43Fault: ghosting 
+44Fault: L4-17 
+45Fault: lines when using ADF 
+46Fault: rtf for ghosting 
+47Fault: jamming noise 
+48Fault: noise from fuser 
+49Fault: jamming 
+50Fault: jamming 
+51Fault: FK3 fuser web out 
+52Fault: lables in machine 
+53Fault: maintenence TA 
+54Fault: error F1-14 
+55Fault: rtf fuser/black drum parts 
+56Fault: jamming A3 
+57Fault: missing tops of copies from glass and adf 
+58Fault: noise 
+59Fault: rtf black drum unit and front lower door 
+60Fault: missing tops of copies from glass and adf 
+61Fault: upgrade firmware 
+62Fault: upgrade firmware 
+63Fault: update firmware 
+64Fault: update firmware 
+65Fault: update firmware 

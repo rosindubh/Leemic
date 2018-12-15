@@ -1,0 +1,65 @@
+1Action: download latest driver from sharp website, install and set as LPD 
+2Action: set up ip, subnet and gateway. customer IT set up print drivers and scan to folder 
+3Action: delivered to building site. unable to configure no site access as no PPE 
+4Action: remove input guide to output assembly and lubricate all bushings and plastic rollers 
+5Action: reload print driver on one PC. 2nd PC no ENIS application, ENIS support unable to reload and has passed problem to customers IT support. 3rd PC not printing to colour printer, colour printer is connected on USB and shared, test and was printing fine. Customer advised. 
+6Action: strip and clean print engine. Also noticed tray 2 set to A3 but A4 paper loaded and rear stop in A3 position. Set tray to A4 and set tray settings to A4 to match. 
+7Action: show customer how to add new users into address book. And how to edit and delete existing users 
+8Action: printer not suitable for customers needs. Advise office and return printer to stock 
+9Action: remove staple unit as beyond repair. Advise customer new cartridge is required. Test finisher, operation normal. 
+10Action: remove corrupt drivers and load new driver. Test PC will print oK. 
+11Action: replaced broken spring and PM machine, requires new lfr and fuser belt 
+12Action: set up on 3 machines, 4th machine would not authenticate cause no known. Upgrade firmware and set authentication to correct user name and password 
+13Action: clean engine/sensors/feed rollers 
+14Action: clean engine/sensors/ feed rollers 
+15Action: order new fuser (jc91-01024a) 
+16Action: advise customer and gave link to microsoft page explaining issue 
+17Action: clean fuser after removing. found small piece of paper in output assembly. clean hard toner off sep claws 
+18Action: fitted cartridge 
+19Action: fitted fuser and reset fuser counter 
+20Action: strip front of dev unit to confirm belt slipping, order 3 drive belts NBLTH0598FCZZ, NBLTH0599FCZZ, NBLTH0494FCZZ 
+21Action: restart print spooler 
+22Action: replaced whole yellow dev unit from another machine and initilise using sim 25-2 
+23Action: replaced black drum unit. found fuser belt worn and front door actuator broken. ordered parts 
+24Action: replaced drum unit and fuser 
+25Action: replaced black drum/charger and blade. unable to improve envelopes as they creased in landscape and portrait. tried several different settings of media type 
+26Action: checked trouble history. history shows only one instace of e7-80. reboot machine and test, all ok. tried to download firmware but connection too slow. advise customer to reboot machine and call service again if fault returns. error only effects scanner printing ok 
+27Action: restart print spooler. machine in ready state and printing from all sources from menu. pc shows jam when print job submitted. showed customer again how to restart print spooler 
+28Action: check paper path and found 9 sheets of paper concertinered at fuser output. removed paper and cleaned sep claws. tested machine ok and reset jam counters. also found tray 3 side guide to be set too wide. adjust to correct position and tested. 
+29Action: customer had another cartridge but this had been opened and was also faulty.. ordered 2 new cartridges from office, collected and fitted one new for customer 
+30Action: set ip address, subnet and gateway. load 5 print drivers and set up scan to folder. trays 3 and 4 not being recognised by machine return visit required
+31Action: remove obstruction and test adf functions ok 
+32Action: set 3 print diver settings as follows :- Bloods to MF bypass A4, Scripts to A4 Tray 1 and Reports to A4 Tray 2 
+33Action: order 2 new drum units 
+34Action: replaced cyan and magenta drum units and waste toner box. checked operation of CPFM paper motor drive and CPFC1 paper trasport roller 1 clutch. These both control waste toner drive. machine has history of jamming so will order motor RP0TP1069FCPZ and clutch PCLC-0399FCZZ 
+35Action: check condition of all drums ok. reset maintenace all counter and general clean 
+36Action: tried repair no success fitted drum unit 
+37Action: remove drum unit split and clean  
+38Action: clean all feed rollers and sensors 
+39Action: replaced drum and blade 
+40Action: check thermistors in fuser. all look good machine low volume 33k on black and colour. check temp of thermistors in sim 44-14 all look ok. reset using sim 14 
+41Action: fitted new front door and badge 
+42Action: clean all print engine. Check condition of all drums ok. Reset TA in sim 24-4.  
+43Action: clean print engine and inspect fuser order parts nil stock in vehicle 
+44Action: strip black drum cleaner and remove lump of hard toner from output 
+45Action: clean slip glass and explain to customer how scanning works and what to clean if they get lines 
+46Action: replaced upper and lower fuser rollers and web. reset counters 
+47Action: found teeth missing on fuser drive gear ordered new gear 
+48Action: part on order returned with refurbished fuser unit 
+49Action: replaced lower fuser roller and tray 2 paper pickup rollers 
+50Action: clean print engine, feed rollers and and all sensors. Test simplex and duplex 
+51Action: fitted new web, will require fuser roller and belt nil stock in car 
+52Action: clean labels off reg roller and test 
+53Action: replaced drum/charger and reset maintenance counters 
+54Action: remove cardboard box and advise customer 
+55Action: fitted fuser / drum parts 
+56Action: replaced tray 4 paper pickup rollers 
+57Action: tested from glas and adf from all cassettes and checked side guides on all cassettes all ok 
+58Action: reset cover in cassette and test ok 
+59Action: replaced black drum unit and front door 
+60Action: tested all cassettes from glass and adf all ok. checked side guides on all cassettes all ok 
+61Action: update firmware 
+62Action: update firmware 
+63Action: update firmware 
+64Action: update firmware 
+65Action: update firmware 

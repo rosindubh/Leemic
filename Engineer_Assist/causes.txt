@@ -1,0 +1,65 @@
+1Cause: pc using generic print driver 
+2Cause: install 
+3Cause: re-site 
+4Cause: output rollers 
+5Cause: print drivers and ENIS application issue 
+6Cause: dirty corona assembly 
+7Cause: customer training required 
+8Cause: delivered new mono printer 
+9Cause: staple cartridge broken and stopping staple unit moving 
+10Cause: corrupt print driver 
+11Cause: fuser pressure spring broken 
+12Cause: not working on 3 machines due to incorrect authentication and not set up 
+13Cause: nff 
+14Cause: worn pickup rollers 
+15Cause: fuser roller worn out 
+16Cause: most likely throttling issue or mailbox full customer using office 365 
+17Cause: fuser dirty full of grit and paper dust 
+18Cause: cartridge broken 
+19Cause: fuser end of life
+20Cause: yellow dev unit drive belt at front slipping 
+21Cause: print spooler frozen 
+22Cause: drive delt on yellow dev unit is slipping 
+23Cause: black drum unit 
+24Cause: drum unit ghosting / fuser worn 
+25Cause: black drum unit and type of envelope 
+26Cause: scn-mcp pwb faulty 
+27Cause: print spooler issue 
+28Cause: T1PPD1_N1, POIND_N jam codes. paper tray 1 sensor not reached 
+29Cause: print cartridge leaking toner 
+30Cause: new machine 
+31Cause: small piece paper in adf output guide 
+32Cause: print driver settings have been changed 
+33Cause: waste toner box full cyan and magenta drum unit cleaners seized 
+34Cause: waste toner backup on cyan and magenta drum units seized 
+35Cause: counter not reset 
+36Cause: bk drum cleaner auger popped out at rear 
+37Cause: drum cleaner blade build up of toner 
+38Cause: dirty feed rollers and sensors 
+39Cause: drum and blade worn out 
+40Cause: thermistor over temperature 
+41Cause: actuator on front door broken 
+42Cause: counter not reset 
+43Cause: fuser rollers worn causing fuser offset 
+44Cause: black drum unit cleaner seized 
+45Cause: tippex on slip glass 
+46Cause: fuser rollers worn 
+47Cause: fuser drive gear broken 
+48Cause: fuser drive gear worn 
+49Cause: lower fuser roller and tray 2 pickup rollers worn 
+50Cause: no fault found on arrival machine working ok 
+51Cause: fuser web come to end 
+52Cause: lables come loose from backing sheet 
+53Cause: drum/charger end of life 
+54Cause: large cardboard box under output tray of finisher 
+55Cause: fuser / black drum parts worn 
+56Cause: paper pickup rollers worn 
+57Cause: nff 
+58Cause: cover for pickup roller in tray one out of position 
+59Cause: black drum unit had seized and front door actuator bent 
+60Cause: nff 
+61Cause: customer has to double scan papercut to log in firmware issue 
+62Cause: firmware issue with papercut 
+63Cause: firmware conflict with papercut 
+64Cause: conflict with papercut 
+65Cause: firmware conflict with papercut 

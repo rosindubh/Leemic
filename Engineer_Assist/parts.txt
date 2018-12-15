@@ -1,0 +1,65 @@
+1Parts: none 
+2Parts: none 
+3Parts: none 
+4Parts: none 
+5Parts: none 
+6Parts: none 
+7Parts: none 
+8Parts: none 
+9Parts: none 
+10Parts: none 
+11Parts: fitted msprt4132fcz3 requires mx-230cr, mx-230fb, mx-230lh 
+12Parts: none 
+13Parts: none 
+14Parts: jc97-02259a times 3 
+15Parts: none 
+16Parts: none 
+17Parts: none 
+18Parts: 0jpcrt590n 
+19Parts: jc91-01024a 
+20Parts: none 
+21Parts: none 
+22Parts: parts fitted to dev unit removed from machine- NBLTH0598FCZZ, NBLTH0599FCZZ, NBLTH0494FCZZ 
+23Parts: fitted mx-608fb, mx-60gu-sa, requires ccab-1635ds51, cbdgd0073fc15, pmlt-2316fczz 
+24Parts: fitted jc91-01024a, drum cartridge 
+25Parts: mx-60gr-sa, mx-607mk 
+26Parts: none 
+27Parts: none 
+28Parts: none 
+29Parts: PGMLTD203U black print cartridge 
+30Parts: none 
+31Parts: none 
+32Parts: none 
+33Parts: requires 2 drum units MX-60GUSA
+34Parts: requires motor RP0TP1069FCPZ and clutch PCLC-0399FCZZ 
+35Parts: none 
+36Parts: mx-60grsa, mx-407mk, mx-60gusa, mx-60gv-ba  fitted drum charger and drum unit and bk dev 
+37Parts: none 
+38Parts: none 
+39Parts: mx-850gr, mx-850bl fitted 
+40Parts: none 
+41Parts: fitted door CCAB-1635DS51, badge CBDG0073FC15 
+42Parts: none 
+43Parts: requires MX-362UH, MX-362LH, MX-362WC fuser rollers and web 
+44Parts: requires CCAB-0136FCZZ, NCPL-0136FCZZ, NBRGP0642FCZZ, PMLT-2290FCZZ, NSRW-0103FCZZ, MSPRC4570FCZZ, PSHT-0171FCZZ 
+45Parts: none 
+46Parts: fitted mx-362lh, mx-362uh, mx362wc
+47Parts: requires NGERH2122FCZZ 
+48Parts: refurb fuser 
+49Parts: fitted AR620RT times 2 and XX-230LH times one 
+50Parts: none 
+51Parts: fitted MX-510 WB requires MX-51GVBA, MX-31GRSA, MX-510MK, MX-361FB, MX-510LH 
+52Parts: none 
+53Parts: fitted mx-500gr, mx-503mk 
+54Parts: none 
+55Parts: fitted mx-510mk, mx-31grsa, mx-510lh, mx-361fb,  
+56Parts: fitted mx-850rt times 1  
+57Parts: none 
+58Parts: none 
+59Parts: ccab-1635ds53, mx-60gu-sa 
+60Parts: none 
+61Parts: none 
+62Parts: none 
+63Parts: none 
+64Parts: none 
+65Parts: none 
