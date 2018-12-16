@@ -490,6 +490,7 @@ def job_retreval():
             print(heading, content, end='')
     data.close()
 
+
     # faults
     request = line_num+'Fault'
     data = open('faults.txt')
@@ -498,6 +499,7 @@ def job_retreval():
         if heading == request:
             print(heading, content, end='')
     data.close()
+
 
     # causes
     request = line_num+'Cause'
@@ -508,6 +510,7 @@ def job_retreval():
             print(heading, content, end='')
     data.close()
 
+
     # actions
     request = line_num+'Action'
     data = open('actions.txt')
@@ -515,7 +518,10 @@ def job_retreval():
         (heading, content) = each_line.split(':')
         if heading == request:
             print(heading, content, end='')
+            input('\n\n\nfor details of parts fitted consult parts.txt file noting line number\n\nEnter to continue...')
     data.close()
+
+
 
     # parts
     request = line_num+'Parts'
