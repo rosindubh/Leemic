@@ -30,7 +30,10 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(2)   Sharp Service Manuals
     \t\t\t\t\t\t\t\t\t(3)   Sharp Parts Catalogues
     \t\t\t\t\t\t\t\t\t(4)   Sharp Peripherals
-    \t\t\t\t\t\t\t\t\t(5)   AST solicitors IP addresses
+    \t\t\t\t\t\t\t\t\t(5)   AST solicitors LEMARK IP addresses
+    \t\t\t\t\t\t\t\t\t(6)   List of Simulation Codes
+    \t\t\t\t\t\t\t\t\t(7)   List of error codes
+    \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -50,6 +53,12 @@ def main_menu():
         peripherals()
     elif user_choice == '5':
         ast_ip()
+    elif user_choice == '6':
+        simulation()
+    elif user_choice == '7':
+        error_codes()
+    elif user_choice == '8':
+        lamp()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -117,7 +126,7 @@ def handy_guides():
 \t\t\t\t(44) MX-M364N\t\tMX-M365N\t\tMX-M465N\t\tMX-M565N
 \t\t\t\t(45) MX-M283N\t\tMX-M363N\t\tMX-M453N\t\tMX-M503N
 \t\t\n\n\n\n\n\t\t\t\t(999) MAIN MENU''')
- 
+
 
 
 
@@ -266,7 +275,7 @@ def service_manuals():
 \t\t\n\n\n\n\n
 
 \t\t\t\t(999) MAIN MENU''')
-    
+
 
 
 
@@ -318,7 +327,7 @@ def service_manuals():
         elif model_number == '29':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Service Manual Revised June 2014.pdf')
             service_manuals()
-            
+
         elif model_number == '30':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 3070-3570-4070/Service Manual (Revised February 2016).pdf')
             service_manuals()
@@ -394,8 +403,8 @@ def parts_guides():
 
 \t\t\t\t(31) MX-3050N\tMX-3550N\tMX-4050N\tMX-5050N\tMX-6050N
 \t\t\t\t(32) MX-4070N\tMX-3570N\tMX-3070N\tMX-3560N\tMX-3060N\tMX-4050N\tMX-3550N\tMX-3050N
-\t\t\t\t(32) MX-5070N\tMX-6070N
-\t\t\t\t(33) MX-6540FN\tMX-7040N\tMX-6240N
+\t\t\t\t(33) MX-5070N\tMX-6070N
+\t\t\t\t(34) MX-6540FN\tMX-7040N\tMX-6240N
 
 
 \t\t\t\t(40) MX-M1055\tMX-M1205
@@ -468,6 +477,9 @@ def parts_guides():
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 3070-3570-4070/Parts Guide.pdf')
             parts_guides()
         elif model_number == '33':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-5070/mx4070n-mx-5070__parts.pdf')
+            parts_guides()
+        elif model_number == '34':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf')
             parts_guides()
 
@@ -567,6 +579,7 @@ def ast_ip():
     def wiper():
         print('\n' * 100)
     wiper()
+
     # open file containing IP addresses
     ip_address_file = open('/home/phil/my_python_programs/AST_solicitors_IP_addresses/AST_IP_ADDRESSES', 'r')
     whole_file = ip_address_file.read()
@@ -574,6 +587,59 @@ def ast_ip():
     ip_address_file.close()
     input('Enter to continue')
     main_menu()
+
+
+  # short script to open a text file containig a list of simulation codes for Sharp MFP's
+
+def simulation():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+
+    #open file containing list of simulation codes
+    simulation_file = open('/home/phil/Documents/SIMULATION', 'r')
+    simulation_whole_file = simulation_file.read()
+    print(simulation_whole_file)
+    simulation_file.close()
+    input('Enter to continue...')
+    main_menu()
+
+   # short script to open a text file containig a list of error codes for Sharp MFP's
+
+def error_codes():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+
+    #open file containing list of error codes
+    error_codes_file = open('/home/phil/Documents/ERROR_CODES', 'r')
+    error_codes_whole_file = error_codes_file.read()
+    print(error_codes_whole_file)
+    error_codes_file.close()
+    input('Enter to continue...')
+    main_menu()
+
+
+    # short script to open instructions on how to instaal a LAMP stack on a araspberry pi
+
+def lamp():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+
+    #open file containing instructions and print to screen
+    lamp_file = open('/home/phil/Documents/LAMP_stack_on_raspberry_Pi3', 'r')
+    lamp_whole_file = lamp_file.read()
+    print(lamp_whole_file)
+    lamp_file.close()
+    input('Enter to continue...')
+    main_menu()
+        
+        
+
 
 
 
