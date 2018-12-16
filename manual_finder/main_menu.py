@@ -34,6 +34,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(6)   List of Simulation Codes
     \t\t\t\t\t\t\t\t\t(7)   List of error codes
     \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
+    \t\t\t\t\t\t\t\t\t(9)   L4-17/L4-18 parts price comparison
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -59,6 +60,8 @@ def main_menu():
         error_codes()
     elif user_choice == '8':
         lamp()
+    elif user_choice == '9':
+        l4_error()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -636,6 +639,21 @@ def lamp():
     print(lamp_whole_file)
     lamp_file.close()
     input('Enter to continue...')
+    main_menu()
+
+
+def l4_error():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+
+    #open file containing L4-17 L4-18 price comparison and print to screen
+    l4_file = open('/home/phil/Documents/L4-17_L4-18_parts_cost_comparison', 'r')
+    l4_whole_file = l4_file.read()
+    print(l4_whole_file)
+    l4_file.close()
+    input('\n\nEnter to continue...')
     main_menu()
         
         
