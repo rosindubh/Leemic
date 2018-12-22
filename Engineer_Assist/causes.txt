@@ -63,3 +63,13 @@
 63Cause: firmware conflict with papercut 
 64Cause: conflict with papercut 
 65Cause: firmware conflict with papercut 
+66Cause: conflict with papercut 
+67Cause: conflict with papercut 
+68Cause: loss of print driver cause not known 
+69Cause: image unit end of life 
+70Cause: parts ordered by Taz 
+71Cause: possible ppu roller or fuser 
+72Cause: possibly fuser 
+73Cause: possible firmware isssue with papercut 
+74Cause: no obvious cause 
+75Cause: paper in inlet guide of finisher 

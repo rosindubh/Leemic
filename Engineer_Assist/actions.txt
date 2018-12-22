@@ -63,3 +63,13 @@
 63Action: update firmware 
 64Action: update firmware 
 65Action: update firmware 
+66Action: update firmware 
+67Action: update firmware 
+68Action: call medical centre IT and install scripts print diver 
+69Action: replaced cyan image unit, clean print engine and spilled yellow toner 
+70Action: fitted fuser belt and roller 
+71Action: replace ppu roller, needs fuser refurb 
+72Action: order new fuser 
+73Action: reboot machine and advise customer to monitor 
+74Action: clean print engine and check firmware version is latest 
+75Action: strip finisher and remove paper. Test ok requires new door on finisher will order and rtf 

@@ -63,3 +63,13 @@
 63Fault: update firmware 
 64Fault: update firmware 
 65Fault: update firmware 
+66Fault: firmware update 
+67Fault: firmware upgrade 
+68Fault: no scripts print driver 
+69Fault: asking for cyan imaging unit 
+70Fault: rtf fuser parts for Taz 
+71Fault: jamming 
+72Fault: jamming intermittant 
+73Fault: customer having to swipe card twice 
+74Fault: C4-20 
+75Fault: jamming in finisher 

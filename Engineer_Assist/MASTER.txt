@@ -456,3 +456,73 @@ Cause: firmware conflict with papercut
 Action: update firmware 
 Parts: none 
 
+Date: (17, 12, 2018) Time: (10, 45, 41) 
+Machine type: lexmark c6160 
+Fault: firmware update 
+Cause: conflict with papercut 
+Action: update firmware 
+Parts: none 
+
+Date: (17, 12, 2018) Time: (11, 10, 28) 
+Machine type: lexmark c6160 
+Fault: firmware upgrade 
+Cause: conflict with papercut 
+Action: update firmware 
+Parts: none 
+
+Date: (17, 12, 2018) Time: (22, 9, 23) 
+Machine type: samsung sl-x4020 
+Fault: no scripts print driver 
+Cause: loss of print driver cause not known 
+Action: call medical centre IT and install scripts print diver 
+Parts: none 
+
+Date: (17, 12, 2018) Time: (22, 9, 23) 
+Machine type: samsung clx-8640nd 
+Fault: asking for cyan imaging unit 
+Cause: image unit end of life 
+Action: replaced cyan image unit, clean print engine and spilled yellow toner 
+Parts: fitted cyan image unit cltr659/see 
+
+Date: (18, 12, 2018) Time: (22, 55, 4) 
+Machine type: sharp mx-3070 
+Fault: rtf fuser parts for Taz 
+Cause: parts ordered by Taz 
+Action: fitted fuser belt and roller 
+Parts: fitted mx-607lh, mx607fb 
+
+Date: (19, 12, 2018) Time: (13, 19, 27) 
+Machine type: sharp mx-4070 
+Fault: jamming 
+Cause: possible ppu roller or fuser 
+Action: replace ppu roller, needs fuser refurb 
+Parts: need to note part numbers 
+
+Date: (19, 12, 2018) Time: (13, 19, 27) 
+Machine type: samsung slx-9201 
+Fault: jamming intermittant 
+Cause: possibly fuser 
+Action: order new fuser 
+Parts: none 
+
+Date: (21, 12, 2018) Time: (8, 58, 11) 
+Machine type: samsung c6160 
+Fault: customer having to swipe card twice 
+Cause: possible firmware isssue with papercut 
+Action: reboot machine and advise customer to monitor 
+Parts: none 
+
+Date: (21, 12, 2018) Time: (10, 47, 58) 
+Machine type: sharp mx-5112 
+Fault: C4-20 
+Cause: no obvious cause 
+Action: clean print engine and check firmware version is latest 
+Parts: none 
+
+Date: (21, 12, 2018) Time: (10, 47, 58) 
+Machine type: sharp mx-5141 
+Fault: jamming in finisher 
+Cause: paper in inlet guide of finisher 
+Action: strip finisher and remove paper. Test ok requires new door on finisher will order and rtf 
+Parts: requires 0cw4170p591// 
+

@@ -30,7 +30,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(2)   Sharp Service Manuals
     \t\t\t\t\t\t\t\t\t(3)   Sharp Parts Catalogues
     \t\t\t\t\t\t\t\t\t(4)   Sharp Peripherals
-    \t\t\t\t\t\t\t\t\t(5)   AST solicitors LEMARK IP addresses
+    \t\t\t\t\t\t\t\t\t(5)   IP addresses
     \t\t\t\t\t\t\t\t\t(6)   List of Simulation Codes
     \t\t\t\t\t\t\t\t\t(7)   List of error codes
     \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
@@ -52,8 +52,10 @@ def main_menu():
         parts_guides()
     elif user_choice == '4':
         peripherals()
+##    elif user_choice == '5':
+##        ast_ip()
     elif user_choice == '5':
-        ast_ip()
+        ip()
     elif user_choice == '6':
         simulation()
     elif user_choice == '7':
@@ -532,6 +534,10 @@ def peripherals():
 \t\t\t\t(2) MX-DE12\tMX-DE13\tMX-DE14 parts
 \t\t\t\t(3) MX-TR19 parts
 \t\t\t\t(4) MX-TR19 N parts
+\t\t\t\t(5) MX-DE28 service
+\t\t\t\t(6) MX-DE28 parts
+\t\t\t\t(7) MX-DE28N service
+\t\t\t\t(8) MX-DE28N parts
 \t\t\t\t(999) Exit''')
  
 
@@ -560,6 +566,17 @@ def peripherals():
             peripherals()
         elif model_number == '4':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-TR19/MX-TR19_N_parts.pdf')
+        elif model_number == '5':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE28/MX-DE28_SM.pdf')
+            peripherals()
+        elif model_number == '6':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE28/mxde28_pg.pdf')
+            peripherals()
+        elif model_number == '7':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE28/MX-DE28N_SM.pdf')
+            peripherals()
+        elif model_number == '8':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE28/MX-DE28N_parts.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
@@ -572,24 +589,62 @@ def peripherals():
         peripherals()
 
 
-    # short script to display AST solicitors IP addresses
+    # short script to display IP addresses of customer machines
     # phil welsby 14th december 2018
 
 
 
-def ast_ip():
+##def ast_ip():
+##    #clear screen
+##    def wiper():
+##        print('\n' * 100)
+##    wiper()
+##
+##    # open file containing IP addresses
+##    ip_address_file = open('/home/phil/Documents/IP_ADDRESSES', 'r')
+##    whole_file = ip_address_file.read()
+##    print(whole_file)
+##    ip_address_file.close()
+##    input('Enter to continue')
+##    main_menu()
+
+def ip():
     #clear screen
     def wiper():
         print('\n' * 100)
     wiper()
 
-    # open file containing IP addresses
-    ip_address_file = open('/home/phil/my_python_programs/AST_solicitors_IP_addresses/AST_IP_ADDRESSES', 'r')
-    whole_file = ip_address_file.read()
-    print(whole_file)
-    ip_address_file.close()
-    input('Enter to continue')
-    main_menu()
+    # sub menu fo ip addresses
+    print('''\t\t\t\t\t\t\t\tIP ADDRESS SUB MENU\n\n\n\n
+\t\t\t\t\t(1) AST
+\t\t\t\t\t(2) Palletower
+
+
+
+''')
+    ip_choice = input('Enter your selection then press ENTER...')
+    if ip_choice == '1':
+        ip_file = open('/home/phil/Documents/AST_IP_ADDRESSES')
+        ip_file_whole = ip_file.read()
+        print(ip_file_whole)
+        ip_file.close()
+        input('Enter to continue...')
+        main_menu()
+    elif ip_choice == '2':
+        ip_file = open('/home/phil/Documents/PALLETOWER_IP_ADDRESSES')
+        ip_file_whole = ip_file.read()
+        print(ip_file_whole)
+        ip_file.close()
+        input('Enter to continue...')
+        main_menu()
+    else:
+        print(ip_choice, 'is not a valid choice')
+        input()
+        main_menu()
+        
+        
+
+
 
 
   # short script to open a text file containig a list of simulation codes for Sharp MFP's
@@ -599,6 +654,8 @@ def simulation():
     def wiper():
         print('\n' * 100)
     wiper()
+
+
 
     #open file containing list of simulation codes
     simulation_file = open('/home/phil/Documents/SIMULATION', 'r')
