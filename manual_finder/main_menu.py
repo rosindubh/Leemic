@@ -538,6 +538,8 @@ def peripherals():
 \t\t\t\t(6) MX-DE28 parts
 \t\t\t\t(7) MX-DE28N service
 \t\t\t\t(8) MX-DE28N parts
+\t\t\t\t(9) MX-FN10 service
+\t\t\t\t(10) MX-FN10 parts
 \t\t\t\t(999) Exit''')
  
 
@@ -577,6 +579,12 @@ def peripherals():
             peripherals()
         elif model_number == '8':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE28/MX-DE28N_parts.pdf')
+            peripherals()
+        elif model_number == '9':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN10/MXFN10-PNX5A-B-C-D-RBX1_SM_GB.pdf')
+            peripherals()
+        elif model_number == '10':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN10/mxfn10_parts.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
