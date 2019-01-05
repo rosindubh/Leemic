@@ -116,7 +116,7 @@ def handy_guides():
 \t\t\t\t(24) MX-2301N\tMX-2600N\tMX-3100N
 \t\t\t\t(25) MX-2610N\tMX-3110N\tMX-3610N
 \t\t\t\t(26) MX-2630N
-\t\t\t\t(27) MX-2640\tMX3140N\t\tMX3640N
+\t\t\t\t(27) MX-2640N\tMX3140N\t\tMX3640N
 \t\t\t\t(28) MX-4112N\tMX-5112N
 \t\t\t\t(29) MX-4141N\tMX-5141N
 
@@ -269,6 +269,7 @@ def service_manuals():
 \t\t\t\t(30) MX-3050N/3550N/4050N\tMX-3060N/3560N/4060N\t\tMX-3070N/3570N/4070N
 \t\t\t\t(31) MX-5050N\t\tMX-6050N\t\tMX5070N\t\t\tMX-6070N
 \t\t\t\t(32) MX-6240N\t\tMX-7040N
+\t\t\t\t(33) MX-6500N\tMX-7500N
 
 
 
@@ -277,7 +278,7 @@ def service_manuals():
 \t\t\t\t(42) MX-M365N\tMX-M364N\tMX-M465N\tMX-M464N\tMX-M565N\tMX-M564N
 \t\t\t\t(43) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N\tMX-M362N
 \t\t\t\t(43) MX-M452N\tMX-M502N
-\t\t\n\n\n\n\n
+\t\t\n\n
 
 \t\t\t\t(999) MAIN MENU''')
 
@@ -341,6 +342,9 @@ def service_manuals():
             service_manuals()
         elif model_number == '32':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf')
+            service_manuals()
+        elif model_number == '33':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Complete Service Manual - All Sections - Updated May 2014.pdf')
             service_manuals()
         elif model_number == '40':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_service_manual.pdf')
@@ -410,6 +414,7 @@ def parts_guides():
 \t\t\t\t(32) MX-4070N\tMX-3570N\tMX-3070N\tMX-3560N\tMX-3060N\tMX-4050N\tMX-3550N\tMX-3050N
 \t\t\t\t(33) MX-5070N\tMX-6070N
 \t\t\t\t(34) MX-6540FN\tMX-7040N\tMX-6240N
+\t\t\t\t(35) MX-6500N\tMX-7500N
 
 
 \t\t\t\t(40) MX-M1055\tMX-M1205
@@ -487,6 +492,9 @@ def parts_guides():
         elif model_number == '34':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf')
             parts_guides()
+        elif model_number == '35':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/MX-6500_parts.pdf')
+            parts_guides()
 
         elif model_number == '40':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_parts.pdf')
@@ -540,8 +548,12 @@ def peripherals():
 \t\t\t\t(8) MX-DE28N parts
 \t\t\t\t(9) MX-FN10 service
 \t\t\t\t(10) MX-FN10 parts
+\t\t\t\t(11) MX-BM50 service
+\t\t\t\t(12) MX-BM50 parts
+\t\t\t\t(13) MX-BM50 installation
+
 \t\t\t\t(999) Exit''')
- 
+
 
 
 
@@ -585,6 +597,15 @@ def peripherals():
             peripherals()
         elif model_number == '10':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN10/mxfn10_parts.pdf')
+            peripherals()
+        elif model_number == '11':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-BM50/MXBM50-FD50-TM50-CF50_SM.pdf')
+            peripherals()
+        elif model_number == '12':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-BM50/MX-BM50_parts.pdf')
+            peripherals()
+        elif model_number == '13':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-BM50/MX-BM50_installation_manual.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
@@ -649,8 +670,6 @@ def ip():
         print(ip_choice, 'is not a valid choice')
         input()
         main_menu()
-        
-        
 
 
 
@@ -720,8 +739,7 @@ def l4_error():
     l4_file.close()
     input('\n\nEnter to continue...')
     main_menu()
-        
-        
+
 
 
 
