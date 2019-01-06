@@ -123,6 +123,7 @@ def handy_guides():
 \t\t\t\t(30) MX-3050N\t\tMX-3550N/MX4050N\tMX-5050N/MX-6050N
 \t\t\t\t(31) MX-3060N/MX-3070N\tMX-3560N/3570N\t\tMX-4060N/4070N\t\tMX-5070N/6070N
 \t\t\t\t(32) MX-6240N\tMX7040N\t\tMX-6500N\tMX-7500N
+\t\t\t\t(33) MX-6580N\tMX-7580N
 
 \t\t\t\t(40) MX-M904\t\tMX-M1054\t\tMX-M1204\t\tMX-M1055\tMX-M1205
 \t\t\t\t(41) MX-M365N\t\tMX-M465N\t\tMX-565
@@ -197,6 +198,9 @@ def handy_guides():
         elif model_number == '32':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf')
             handy_guides()
+        elif model_number == '33':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_handy_guide.pdf')
+            handy_guides()
 
         elif model_number == '40':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MXM1205_handy_guide.pdf')
@@ -270,6 +274,7 @@ def service_manuals():
 \t\t\t\t(31) MX-5050N\t\tMX-6050N\t\tMX5070N\t\t\tMX-6070N
 \t\t\t\t(32) MX-6240N\t\tMX-7040N
 \t\t\t\t(33) MX-6500N\tMX-7500N
+\t\t\t\t(34) MX-6580N\tMX-7580N
 
 
 
@@ -346,6 +351,9 @@ def service_manuals():
         elif model_number == '33':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Complete Service Manual - All Sections - Updated May 2014.pdf')
             service_manuals()
+        elif model_number == '34':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_service_manual.pdf')
+            service_manuals()
         elif model_number == '40':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_service_manual.pdf')
             service_manuals()
@@ -415,6 +423,7 @@ def parts_guides():
 \t\t\t\t(33) MX-5070N\tMX-6070N
 \t\t\t\t(34) MX-6540FN\tMX-7040N\tMX-6240N
 \t\t\t\t(35) MX-6500N\tMX-7500N
+\t\t\t\t(36) MX-6580N\tMX-7580N
 
 
 \t\t\t\t(40) MX-M1055\tMX-M1205
@@ -494,6 +503,9 @@ def parts_guides():
             parts_guides()
         elif model_number == '35':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/MX-6500_parts.pdf')
+            parts_guides()
+        elif model_number == '36':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_parts_guide.pdf')
             parts_guides()
 
         elif model_number == '40':
