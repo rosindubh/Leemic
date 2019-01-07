@@ -256,8 +256,6 @@ def service_manuals():
 \t\t\t\t(1) MX-264U\tMX-314U\t\tMX-354U
 \t\t\t\t(2) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N/M362N
 
-
-
 \t\t\t\t(20) MX-2300/2700N
 \t\t\t\t(21) MX-2010U\tMX-2310U\tMX3111U\t\tMX-2610N\tMX-3110N\tMX3610N
 \t\t\t\t(22) MX-2314\tUSE MX-2614/3114
@@ -269,20 +267,18 @@ def service_manuals():
 \t\t\t\t(28) MX-4110N\tMX-5110N\tMX-4111N\tMX-5111N\tMX-4112N\tMX-5112N
 \t\t\t\t(29) MX-4140N\tMX-5140N\tMX-4141N\tMX-5141N
 
-
 \t\t\t\t(30) MX-3050N/3550N/4050N\tMX-3060N/3560N/4060N\t\tMX-3070N/3570N/4070N
 \t\t\t\t(31) MX-5050N\t\tMX-6050N\t\tMX5070N\t\t\tMX-6070N
 \t\t\t\t(32) MX-6240N\t\tMX-7040N
 \t\t\t\t(33) MX-6500N\tMX-7500N
 \t\t\t\t(34) MX-6580N\tMX-7580N
 
-
-
 \t\t\t\t(40) MX-M1055\tMX-M1205
 \t\t\t\t(41) MX-B355W\tMX-B455W
 \t\t\t\t(42) MX-M365N\tMX-M364N\tMX-M465N\tMX-M464N\tMX-M565N\tMX-M564N
 \t\t\t\t(43) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N\tMX-M362N
 \t\t\t\t(43) MX-M452N\tMX-M502N
+\t\t\t\t(44) MX-M904\tMX-M1054\tMX-M1204
 \t\t\n\n
 
 \t\t\t\t(999) MAIN MENU''')
@@ -296,7 +292,7 @@ def service_manuals():
 
     # get input from user
     model_number = None
-    model_number = input('\n\n\n\n\nEnter your choice: ')
+    model_number = input('\n\n\nEnter your choice: ')
     #print('Your choice was', model_number)
 
 
@@ -366,6 +362,9 @@ def service_manuals():
         elif model_number == '43':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M283-363-453-503/Service Manual/Updated Service Manual - June 10.pdf')
             service_manuals()
+        elif model_number == '44':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_SM.pdf')
+            service_manuals()
 
         elif model_number == '999':
             main_menu()
@@ -417,7 +416,6 @@ def parts_guides():
 \t\t\t\t(29) MX-4112N\tMX-5112N
 \t\t\t\t(30) MX-4140N\tMX-5140N\tMX-4141N\tMX-5141N
 
-
 \t\t\t\t(31) MX-3050N\tMX-3550N\tMX-4050N\tMX-5050N\tMX-6050N
 \t\t\t\t(32) MX-4070N\tMX-3570N\tMX-3070N\tMX-3560N\tMX-3060N\tMX-4050N\tMX-3550N\tMX-3050N
 \t\t\t\t(33) MX-5070N\tMX-6070N
@@ -425,13 +423,13 @@ def parts_guides():
 \t\t\t\t(35) MX-6500N\tMX-7500N
 \t\t\t\t(36) MX-6580N\tMX-7580N
 
-
 \t\t\t\t(40) MX-M1055\tMX-M1205
 \t\t\t\t(41) MX-B355W\tMX-B455W
 \t\t\t\t(42) MX-M364N\tMX-M365N\tMX-M464N\tMX-M465\t\tMX-M564N\tMX-M565N
 \t\t\t\t(43) MX-M283N\tMX-M363N\tMX-M453N\tMX-M503N\tMX-M282N
 \t\t\t\t(43) MX-M362N\tMX-M452N\tMX-M502N
-\t\t\n\n\n\n\n\t\t\t\t(999) MAIN MENU''')
+\t\t\t\t(44) MX-M904\tMX-M1054\tMX-M1204
+\t\t\n\n\t\t\t\t(999) MAIN MENU''')
 
 
     # path of HDD containing Sharp Manuals
@@ -439,7 +437,7 @@ def parts_guides():
 
     # get input from user
     model_number = None
-    model_number = input('\n\n\n\n\nEnter your choice: ')
+    model_number = input('\n\nEnter your choice: ')
     #print('Your choice was', model_number)
 
     try:
@@ -520,6 +518,9 @@ def parts_guides():
         elif model_number == '43':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M283-363-453-503/Parts Guide/Revised Parts Guide Main Machine - Dec 10.pdf')
             parts_guides()
+        elif model_number == '44':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf')
+            parts_guides()
         elif model_number == '999':
             main_menu()
         else:
@@ -563,6 +564,8 @@ def peripherals():
 \t\t\t\t(11) MX-BM50 service
 \t\t\t\t(12) MX-BM50 parts
 \t\t\t\t(13) MX-BM50 installation
+\t\t\t\t(14) MX-FN27N service
+\t\t\t\t(15) MX-FN27N parts
 
 \t\t\t\t(999) Exit''')
 
@@ -618,6 +621,12 @@ def peripherals():
             peripherals()
         elif model_number == '13':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-BM50/MX-BM50_installation_manual.pdf')
+            peripherals()
+        elif model_number == '14':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN27/MX-FN27_service.pdf')
+            peripherals()
+        elif model_number == '15':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN27/MX-FN27_parts.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
