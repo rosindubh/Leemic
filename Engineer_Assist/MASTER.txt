@@ -526,3 +526,108 @@ Cause: paper in inlet guide of finisher
 Action: strip finisher and remove paper. Test ok requires new door on finisher will order and rtf 
 Parts: requires 0cw4170p591// 
 
+Date: (2, 1, 2019) Time: (7, 35, 56) 
+Machine type: sharp mx-3140 
+Fault: jamming in adf 
+Cause: small piece of paper in adf turn round assembly 
+Action: strip adf and remove 
+Parts: none 
+
+Date: (2, 1, 2019) Time: (7, 35, 56) 
+Machine type: sharp mx-453 
+Fault: black line 
+Cause: piece of label in drum cleaner 
+Action: remove foreign object replaced drum and charger 
+Parts: mx-503mk, mx-500gr 
+
+Date: (3, 1, 2019) Time: (9, 23, 46) 
+Machine type: Lexmark c6160 
+Fault: firmware update 
+Cause: firmware 
+Action: update firmware as previous file corrupt 
+Parts: none 
+
+Date: (3, 1, 2019) Time: (9, 23, 46) 
+Machine type: lexmark c6160 
+Fault: firmware update 
+Cause: firmware 
+Action: firmware update as previous file corrrupt 
+Parts: none 
+
+Date: (3, 1, 2019) Time: (9, 23, 46) 
+Machine type: lexmark c6160 
+Fault: firmware update 
+Cause: firmware 
+Action: update firmware 
+Parts: none 
+
+Date: (3, 1, 2019) Time: (9, 23, 46) 
+Machine type: sharp mx-3070 
+Fault: install fax module mx-fx15 
+Cause: install fax 
+Action: fitted fax module, no telephone point to connect sale (kevin) informed 
+Parts: MX-FX15 
+
+Date: (3, 1, 2019) Time: (9, 23, 46) 
+Machine type: sharp mx-3070v 
+Fault: install fax 
+Cause: install fax 
+Action: install fax module MX-FX15 
+Parts: fitted MX-FX15 
+
+Date: (3, 1, 2019) Time: (15, 38, 51) 
+Machine type: lexmark c6160 
+Fault: update firmware 
+Cause: update firmware 
+Action: update firmware 
+Parts: none 
+
+Date: (3, 1, 2019) Time: (15, 38, 51) 
+Machine type: lexmark c6160 
+Fault: update firmware 
+Cause: update firmware 
+Action: update firmware 
+Parts: none 
+
+Date: (4, 1, 2019) Time: (9, 45, 47) 
+Machine type: sharp mx-6500 
+Fault: banding on magenta 
+Cause: magenta dev unit 
+Action: magenta dev unit doctor blade has been reset. measured and it appears to be 0.700 not 0.775 requires new dev unit 
+Parts: requires DUNT-8747DS16, MX-62GVSB 
+
+Date: (4, 1, 2019) Time: (9, 45, 47) 
+Machine type: Sharp mx-6500 
+Fault: rtf dev magenta 
+Cause: magenta dev faulty 
+Action: replaced magenta dev unit 
+Parts: DUNT-8747DS16, MX-62GVSB 
+
+Date: (4, 1, 2019) Time: (14, 47, 20) 
+Machine type: sharp mx-1024 
+Fault: jamming on booklets 
+Cause: A3 pickup rollers worn 
+Action: checked jam history FSS203_N*4, FSS227_N *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
+Parts: none requires ar-820rt. report sent to greg 
+
+Date: (6, 1, 2019) Time: (21, 58, 23) 
+Machine type: sharp mx-6580 
+Fault: error F1-00 
+Cause: communication error between finisher and PCU PWB 
+Action: history shows one instance of error F1-00. machine is working on arrival after reboot by customer. NFF 
+Parts: none 
+
+Date: (7, 1, 2019) Time: (12, 47, 30) 
+Machine type: sharp mx-5050 
+Fault: not stapling 
+Cause: lids missing off staple cartridges 
+Action: spoken to hannah greg to decide 
+Parts: none 
+
+Date: (7, 1, 2019) Time: (15, 40, 28) 
+Machine type: sharp mx-5050 
+Fault: error F1-15 
+Cause: extention tray out of position 
+Action: reset extention tray and test ok 
+Parts: none 
+

@@ -2,7 +2,7 @@
 2Action: set up ip, subnet and gateway. customer IT set up print drivers and scan to folder 
 3Action: delivered to building site. unable to configure no site access as no PPE 
 4Action: remove input guide to output assembly and lubricate all bushings and plastic rollers 
-5Action: reload print driver on one PC. 2nd PC no ENIS application, ENIS support unable to reload and has passed problem to customers IT support. 3rd PC not printing to colour printer, colour printer is connected on USB and shared, test and was printing fine. Customer advised. 
+5Action: reload print driver on one PC. 2nd PC no EMIS application, EMIS support unable to reload and has passed problem to customers IT support. 3rd PC not printing to colour printer, colour printer is connected on USB and shared, test and was printing fine. Customer advised. 
 6Action: strip and clean print engine. Also noticed tray 2 set to A3 but A4 paper loaded and rear stop in A3 position. Set tray to A4 and set tray settings to A4 to match. 
 7Action: show customer how to add new users into address book. And how to edit and delete existing users 
 8Action: printer not suitable for customers needs. Advise office and return printer to stock 
@@ -73,3 +73,18 @@
 73Action: reboot machine and advise customer to monitor 
 74Action: clean print engine and check firmware version is latest 
 75Action: strip finisher and remove paper. Test ok requires new door on finisher will order and rtf 
+76Action: strip adf and remove 
+77Action: remove foreign object replaced drum and charger 
+78Action: update firmware as previous file corrupt 
+79Action: firmware update as previous file corrrupt 
+80Action: update firmware 
+81Action: fitted fax module, no telephone point to connect sale (kevin) informed 
+82Action: install fax module MX-FX15 
+83Action: update firmware 
+84Action: update firmware 
+85Action: magenta dev unit doctor blade has been reset. measured and it appears to be 0.700 not 0.775 requires new dev unit 
+86Action: replaced magenta dev unit 
+87Action: checked jam history FSS203_N*4, FSS227_N *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
+88Action: history shows one instance of error F1-00. machine is working on arrival after reboot by customer. NFF 
+89Action: spoken to hannah greg to decide 
+90Action: reset extention tray and test ok 

@@ -2,7 +2,7 @@
 2Cause: install 
 3Cause: re-site 
 4Cause: output rollers 
-5Cause: print drivers and ENIS application issue 
+5Cause: print drivers and EMIS application issue 
 6Cause: dirty corona assembly 
 7Cause: customer training required 
 8Cause: delivered new mono printer 
@@ -73,3 +73,18 @@
 73Cause: possible firmware isssue with papercut 
 74Cause: no obvious cause 
 75Cause: paper in inlet guide of finisher 
+76Cause: small piece of paper in adf turn round assembly 
+77Cause: piece of label in drum cleaner 
+78Cause: firmware 
+79Cause: firmware 
+80Cause: firmware 
+81Cause: install fax 
+82Cause: install fax 
+83Cause: update firmware 
+84Cause: update firmware 
+85Cause: magenta dev unit 
+86Cause: magenta dev faulty 
+87Cause: A3 pickup rollers worn 
+88Cause: communication error between finisher and PCU PWB 
+89Cause: lids missing off staple cartridges 
+90Cause: extention tray out of position 

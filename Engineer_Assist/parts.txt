@@ -73,3 +73,18 @@
 73Parts: none 
 74Parts: none 
 75Parts: requires 0cw4170p591// 
+76Parts: none 
+77Parts: mx-503mk, mx-500gr 
+78Parts: none 
+79Parts: none 
+80Parts: none 
+81Parts: MX-FX15 
+82Parts: fitted MX-FX15 
+83Parts: none 
+84Parts: none 
+85Parts: requires DUNT-8747DS16, MX-62GVSB 
+86Parts: DUNT-8747DS16, MX-62GVSB 
+87Parts: none requires ar-820rt. report sent to greg 
+88Parts: none 
+89Parts: none 
+90Parts: none 

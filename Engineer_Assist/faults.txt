@@ -73,3 +73,18 @@
 73Fault: customer having to swipe card twice 
 74Fault: C4-20 
 75Fault: jamming in finisher 
+76Fault: jamming in adf 
+77Fault: black line 
+78Fault: firmware update 
+79Fault: firmware update 
+80Fault: firmware update 
+81Fault: install fax module mx-fx15 
+82Fault: install fax 
+83Fault: update firmware 
+84Fault: update firmware 
+85Fault: banding on magenta 
+86Fault: rtf dev magenta 
+87Fault: jamming on booklets 
+88Fault: error F1-00 
+89Fault: not stapling 
+90Fault: error F1-15 
