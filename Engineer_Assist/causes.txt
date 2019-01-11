@@ -88,3 +88,13 @@
 88Cause: communication error between finisher and PCU PWB 
 89Cause: lids missing off staple cartridges 
 90Cause: extention tray out of position 
+91Cause: jamming in finisher 
+92Cause: primary transfer charger 
+93Cause: job in queue rendering and holding up print queue 
+94Cause: paper jammed in fuser under pressure blade for fuser belt 
+95Cause: drum/charger/dev counters at 100% 
+96Cause: top hinge broken 
+97Cause: firmware issue 
+98Cause: shading correction error in adf 
+99Cause: actuator broken off door 
+100Cause: fuser end of life 

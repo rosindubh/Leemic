@@ -88,3 +88,13 @@
 88Fault: error F1-00 
 89Fault: not stapling 
 90Fault: error F1-15 
+91Fault: rtf after site visit actioned by Greg 
+92Fault: C4-20 
+93Fault: not printing 
+94Fault: jammed H4-02 
+95Fault: maintenance code AA 
+96Fault: rtf finisher door 
+97Fault: having to swipe cards twice 
+98Fault: when copying / scanning double sided 2nd side black 
+99Fault: saying close finisher door 
+100Fault: jammed in fuser  

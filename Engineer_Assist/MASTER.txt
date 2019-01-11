@@ -607,7 +607,7 @@ Date: (4, 1, 2019) Time: (14, 47, 20)
 Machine type: sharp mx-1024 
 Fault: jamming on booklets 
 Cause: A3 pickup rollers worn 
-Action: checked jam history FSS203_N*4, FSS227_N *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
+Action: checked jam history FSS203_N*4, FSS227_S *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
 Parts: none requires ar-820rt. report sent to greg 
 
 Date: (6, 1, 2019) Time: (21, 58, 23) 
@@ -630,4 +630,74 @@ Fault: error F1-15
 Cause: extention tray out of position 
 Action: reset extention tray and test ok 
 Parts: none 
+
+Date: (7, 1, 2019) Time: (23, 39, 22) 
+Machine type: sharp mx-1204 
+Fault: rtf after site visit actioned by Greg 
+Cause: jamming in finisher 
+Action: having checked jam history fault points to pickup not finisher. Replaced all pickup roller to all 4 trays and updated firmware 
+Parts: fitted mx-850rt times 4 
+
+Date: (8, 1, 2019) Time: (12, 27, 50) 
+Machine type: sharp mx-4070 
+Fault: C4-20 
+Cause: primary transfer charger 
+Action: machine working on arrival. srip print engine and clean. test with customer ok 
+Parts: none 
+
+Date: (8, 1, 2019) Time: (12, 27, 50) 
+Machine type: sharp mx-6500 
+Fault: not printing 
+Cause: job in queue rendering and holding up print queue 
+Action: customer had logged into papercut and deleted job causing issue. This had feed queue and all jobs in queue had printed out 
+Parts: none 
+
+Date: (8, 1, 2019) Time: (12, 27, 50) 
+Machine type: sharp mx-6500 
+Fault: jammed H4-02 
+Cause: paper jammed in fuser under pressure blade for fuser belt 
+Action: remove paper and test ok. reset H4-02 using sim 14 
+Parts: none 
+
+Date: (8, 1, 2019) Time: (12, 27, 50) 
+Machine type: sharp mx-2310u 
+Fault: maintenance code AA 
+Cause: drum/charger/dev counters at 100% 
+Action: strip print engine check all drums ok, clean and test 
+Parts: fitted AR-620RT times one 
+
+Date: (8, 1, 2019) Time: (12, 27, 50) 
+Machine type: sharp mx-5141 
+Fault: rtf finisher door 
+Cause: top hinge broken 
+Action: replaced finisher door and test 
+Parts: fitted OCW4170P591// 
+
+Date: (11, 1, 2019) Time: (9, 52, 6) 
+Machine type: lexmark c6160 
+Fault: having to swipe cards twice 
+Cause: firmware issue 
+Action: update firmware to version CSTPP.052.214.fls 
+Parts: none 
+
+Date: (11, 1, 2019) Time: (11, 17, 3) 
+Machine type: sharp mx-3070 
+Fault: when copying / scanning double sided 2nd side black 
+Cause: shading correction error in adf 
+Action: reboot mechine gor error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
+Parts: none 
+
+Date: (11, 1, 2019) Time: (12, 5, 36) 
+Machine type: sharp mx-6070 
+Fault: saying close finisher door 
+Cause: actuator broken off door 
+Action: fitted drum and charger ordered new door 
+Parts: fitted mx-607mk times 1 mx-60grsa times 1 requires door OJEC3206121// 
+
+Date: (11, 1, 2019) Time: (16, 26, 47) 
+Machine type: sharp mx-6500 
+Fault: jammed in fuser  
+Cause: fuser end of life 
+Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
+Parts: fitted mx-750fu 
 

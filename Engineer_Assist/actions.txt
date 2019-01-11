@@ -84,7 +84,17 @@
 84Action: update firmware 
 85Action: magenta dev unit doctor blade has been reset. measured and it appears to be 0.700 not 0.775 requires new dev unit 
 86Action: replaced magenta dev unit 
-87Action: checked jam history FSS203_N*4, FSS227_N *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
+87Action: checked jam history FSS203_N*4, FSS227_S *6, POIND_N *6, DPF_S4 * 1, APFD2_N4 * 1 pickup rollers to tray 4 (A3) very worn 
 88Action: history shows one instance of error F1-00. machine is working on arrival after reboot by customer. NFF 
 89Action: spoken to hannah greg to decide 
 90Action: reset extention tray and test ok 
+91Action: having checked jam history fault points to pickup not finisher. Replaced all pickup roller to all 4 trays and updated firmware 
+92Action: machine working on arrival. srip print engine and clean. test with customer ok 
+93Action: customer had logged into papercut and deleted job causing issue. This had feed queue and all jobs in queue had printed out 
+94Action: remove paper and test ok. reset H4-02 using sim 14 
+95Action: strip print engine check all drums ok, clean and test 
+96Action: replaced finisher door and test 
+97Action: update firmware to version CSTPP.052.214.fls 
+98Action: reboot mechine gor error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
+99Action: fitted drum and charger ordered new door 
+100Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
