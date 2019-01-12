@@ -6,7 +6,7 @@ def main_menu():
     import os
 
     # set relevent directory
-    os.chdir('/home/phil/my_python_programs/manual_finder')
+#    os.chdir('/home/phil/my_python_programs/manual_finder')
 
     # function to clear screen
     def wiper():
@@ -35,6 +35,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(7)   List of error codes
     \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
     \t\t\t\t\t\t\t\t\t(9)   L4-17/L4-18 parts price comparison
+    \t\t\t\t\t\t\t\t\t(10)  Office 365 Settings for Email
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -64,6 +65,8 @@ def main_menu():
         lamp()
     elif user_choice == '9':
         l4_error()
+    elif user_choice == '10':
+        Office365()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -766,6 +769,20 @@ def l4_error():
     l4_whole_file = l4_file.read()
     print(l4_whole_file)
     l4_file.close()
+    input('\n\nEnter to continue...')
+    main_menu()
+
+def Office365():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+
+    #open file containing office 365 email settings
+    office365_file = open('/home/phil/Documents/office365_email_settings', 'r')
+    office365_whole_file = office365_file.read()
+    print(office365_whole_file)
+    office365_file.close()
     input('\n\nEnter to continue...')
     main_menu()
 
