@@ -98,3 +98,5 @@
 98Action: reboot mechine gor error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
 99Action: fitted drum and charger ordered new door 
 100Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
+101Action: replace whole DSDF 
+102Action: replaced document feeder 

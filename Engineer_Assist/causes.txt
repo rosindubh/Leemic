@@ -98,3 +98,5 @@
 98Cause: shading correction error in adf 
 99Cause: actuator broken off door 
 100Cause: fuser end of life 
+101Cause: ccd/leds in adf failed 
+102Cause: ccd failed in document feeder 

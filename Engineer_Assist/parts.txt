@@ -98,3 +98,5 @@
 98Parts: none 
 99Parts: fitted mx-607mk times 1 mx-60grsa times 1 requires door OJEC3206121// 
 100Parts: fitted mx-750fu 
+101Parts: full adf 
+102Parts: fitted new document feeder from warehose machine (new) 

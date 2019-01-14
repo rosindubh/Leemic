@@ -98,3 +98,5 @@
 98Fault: when copying / scanning double sided 2nd side black 
 99Fault: saying close finisher door 
 100Fault: jammed in fuser  
+101Fault: black 2nd side when scanning 
+102Fault: black 2nd side when scanning 

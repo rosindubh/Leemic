@@ -701,3 +701,17 @@ Cause: fuser end of life
 Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
 Parts: fitted mx-750fu 
 
+Date: (14, 1, 2019) Time: (12, 22, 21) 
+Machine type: sharp mx-3070 
+Fault: black 2nd side when scanning 
+Cause: ccd/leds in adf failed 
+Action: replace whole DSDF 
+Parts: full adf 
+
+Date: (14, 1, 2019) Time: (12, 22, 21) 
+Machine type: sharp mx-6070 
+Fault: black 2nd side when scanning 
+Cause: ccd failed in document feeder 
+Action: replaced document feeder 
+Parts: fitted new document feeder from warehose machine (new) 
+
