@@ -36,6 +36,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
     \t\t\t\t\t\t\t\t\t(9)   L4-17/L4-18 parts price comparison
     \t\t\t\t\t\t\t\t\t(10)  Office 365 Settings for Email
+    \t\t\t\t\t\t\t\t\t(11)  UART communicatio issue at JMW
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -67,6 +68,8 @@ def main_menu():
         l4_error()
     elif user_choice == '10':
         Office365()
+    elif user_choice == '11':
+        uart_jmw()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -570,7 +573,9 @@ def peripherals():
 \t\t\t\t(14) MX-FN27N service
 \t\t\t\t(15) MX-FN27N parts
 \t\t\t\t(16) MX-FN28 MX-FN29\tMX-PN15 service
-\t\t\t\t(17) Mx-FN28 MX-FN29\tMX-PN15(A/B/C/D) parts
+\t\t\t\t(17) MX-FN28 MX-FN29\tMX-PN15(A/B/C/D) parts
+\t\t\t\t(18) MX-FN21 MX-FN22 service
+\t\t\t\t(19) MX-FN21 MX-FN22 parts
 
 \t\t\t\t(999) Exit''')
 
@@ -638,6 +643,12 @@ def peripherals():
             peripherals()
         elif model_number == '17':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN28/MX-FN28_parts_manual.pdf')
+            peripherals()
+        elif model_number == '18':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN21/mx-fn21_mx-fn22_service.pdf')
+            peripherals()
+        elif model_number == '19':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN21/mx-fn21_mx-fn22_parts.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
@@ -786,7 +797,17 @@ def Office365():
     input('\n\nEnter to continue...')
     main_menu()
 
-
+def uart_jmw():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    uart_file = open('/home/phil/Documents/UART_on_MX-FN21', 'r')
+    uart_file_whole = uart_file.read()
+    print(uart_file_whole)
+    uart_file.close()
+    input('\n\nEnter to continue...')
+    main_menu()
 
 
 
