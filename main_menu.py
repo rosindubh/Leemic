@@ -36,7 +36,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(8)   LAMP on Raspberry Pi Setup
     \t\t\t\t\t\t\t\t\t(9)   L4-17/L4-18 parts price comparison
     \t\t\t\t\t\t\t\t\t(10)  Office 365 Settings for Email
-    \t\t\t\t\t\t\t\t\t(11)  UART communicatio issue at JMW
+    \t\t\t\t\t\t\t\t\t(11)  UART communication issue at JMW
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
