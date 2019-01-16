@@ -100,3 +100,7 @@
 100Parts: fitted mx-750fu 
 101Parts: full adf 
 102Parts: fitted new document feeder from warehose machine (new) 
+103Parts: none 
+104Parts: fitted mx-407mk, mx-60grsa 
+105Parts: nrolr2125fczz, nrolr2126fczz, nrolr2120fczz, mx-60gu-sa, pclc-0399fczz, rmotp1069fcpz 
+106Parts: none 

@@ -100,3 +100,7 @@
 100Fault: jammed in fuser  
 101Fault: black 2nd side when scanning 
 102Fault: black 2nd side when scanning 
+103Fault: not printing correctly from apple mac 
+104Fault: black lines 
+105Fault: rtf 
+106Fault: faxs stuck in memory 

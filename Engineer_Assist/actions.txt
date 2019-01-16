@@ -100,3 +100,7 @@
 100Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
 101Action: replace whole DSDF 
 102Action: replaced document feeder 
+103Action: tried new print driver from sharp website, and tried LPD / HP / and IPP settings in CUPS but no improvement. seems to print ok from mac apps problem seems to be with Microsoft apps (excell and word) 
+104Action: fitted new drum and charger 
+105Action: fitted new magenta drum unit feed clutch for waste motor and paper deck feed rollers 
+106Action: faxes had printed out after visit by Taz and me 2 hrs earlier 

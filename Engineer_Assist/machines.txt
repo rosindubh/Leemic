@@ -100,3 +100,7 @@
 100Machine type: sharp mx-6500 
 101Machine type: sharp mx-3070 
 102Machine type: sharp mx-6070 
+103Machine type: sharp mx-4112n 
+104Machine type: sharp mx-4070 
+105Machine type: sharp mx-6070 
+106Machine type: sharp mx-6070 

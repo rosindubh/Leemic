@@ -715,3 +715,31 @@ Cause: ccd failed in document feeder
 Action: replaced document feeder 
 Parts: fitted new document feeder from warehose machine (new) 
 
+Date: (15, 1, 2019) Time: (22, 42, 49) 
+Machine type: sharp mx-4112n 
+Fault: not printing correctly from apple mac 
+Cause: apple mac 
+Action: tried new print driver from sharp website, and tried LPD / HP / and IPP settings in CUPS but no improvement. seems to print ok from mac apps problem seems to be with Microsoft apps (excell and word) 
+Parts: none 
+
+Date: (16, 1, 2019) Time: (9, 7, 54) 
+Machine type: sharp mx-4070 
+Fault: black lines 
+Cause: drum blade 
+Action: fitted new drum and charger 
+Parts: fitted mx-407mk, mx-60grsa 
+
+Date: (16, 1, 2019) Time: (9, 7, 54) 
+Machine type: sharp mx-6070 
+Fault: rtf 
+Cause: drum seized 
+Action: fitted new magenta drum unit feed clutch for waste motor and paper deck feed rollers 
+Parts: nrolr2125fczz, nrolr2126fczz, nrolr2120fczz, mx-60gu-sa, pclc-0399fczz, rmotp1069fcpz 
+
+Date: (16, 1, 2019) Time: (9, 7, 54) 
+Machine type: sharp mx-6070 
+Fault: faxs stuck in memory 
+Cause: nff 
+Action: faxes had printed out after visit by Taz and me 2 hrs earlier 
+Parts: none 
+

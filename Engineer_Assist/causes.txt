@@ -100,3 +100,7 @@
 100Cause: fuser end of life 
 101Cause: ccd/leds in adf failed 
 102Cause: ccd failed in document feeder 
+103Cause: apple mac 
+104Cause: drum blade 
+105Cause: drum seized 
+106Cause: nff 
