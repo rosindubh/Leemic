@@ -37,6 +37,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(9)   L4-17/L4-18 parts price comparison
     \t\t\t\t\t\t\t\t\t(10)  Office 365 Settings for Email
     \t\t\t\t\t\t\t\t\t(11)  UART communication issue at JMW
+    \t\t\t\t\t\t\t\t\t(12)  Full Calibration
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -70,6 +71,8 @@ def main_menu():
         Office365()
     elif user_choice == '11':
         uart_jmw()
+    elif user_choice == '12':
+        full_cal()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -813,7 +816,17 @@ def uart_jmw():
     input('\n\nEnter to continue...')
     main_menu()
 
-
+def full_cal():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    full_cal_file = open('/home/phil/Documents/full_calibration', 'r')
+    full_cal_file_whole = full_cal_file.read()
+    print(full_cal_file_whole)
+    full_cal_file.close()
+    input('Enter to continue...')
+    main_menu()
 
 
 
