@@ -233,7 +233,7 @@ Parts: requires 2 drum units MX-60GUSA
 
 Date: (5, 12, 2018) Time: (10, 43, 24) 
 Machine type: sharp mx-6070 
-Fault: E4-18 error code 
+Fault: L4-18 error code 
 Cause: waste toner backup on cyan and magenta drum units seized 
 Action: replaced cyan and magenta drum units and waste toner box. checked operation of CPFM paper motor drive and CPFC1 paper trasport roller 1 clutch. These both control waste toner drive. machine has history of jamming so will order motor RP0TP1069FCPZ and clutch PCLC-0399FCZZ 
 Parts: requires motor RP0TP1069FCPZ and clutch PCLC-0399FCZZ 
@@ -684,7 +684,7 @@ Date: (11, 1, 2019) Time: (11, 17, 3)
 Machine type: sharp mx-3070 
 Fault: when copying / scanning double sided 2nd side black 
 Cause: shading correction error in adf 
-Action: reboot mechine gor error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
+Action: reboot mechine got error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
 Parts: none 
 
 Date: (11, 1, 2019) Time: (12, 5, 36) 
@@ -742,4 +742,40 @@ Fault: faxs stuck in memory
 Cause: nff 
 Action: faxes had printed out after visit by Taz and me 2 hrs earlier 
 Parts: none 
+
+Date: (18, 1, 2019) Time: (0, 59, 43) 
+Machine type: sharp mx-3050 
+Fault: F1-00 
+Cause: communication error between machine and finisher 
+Action: machine working on arrival. update firmware and test finisher 
+Parts: none 
+
+Date: (18, 1, 2019) Time: (0, 59, 43) 
+Machine type: sharp mx-2614 
+Fault: fit fax module 
+Cause: fit fax module for Clarity Glamorgan 
+Action: fitted fax MX-FX11 to machine and set country code in sim66-2 
+Parts: MX-FX11 
+
+Date: (18, 1, 2019) Time: (14, 56, 8) 
+Machine type: sharp mx-6500 
+Fault: feint copies 
+Cause: black dev dumped 
+Action: strip out bk drum and dev and clean area ordered black dev 
+Parts: requires mx-62gvsa 
+
+Date: (18, 1, 2019) Time: (14, 56, 8) 
+Machine type: sharp mx-6500 
+Fault: rtf 
+Cause: feint black due to black dev being dumped 
+Action: replaced black dev, drum and charger 
+Parts: fitted mx-62grsa, mx-62gvba, mx-750mk
+
+Date: (18, 1, 2019) Time: (20, 20, 13) 
+Machine type: sharp mx-1204 
+Fault: jamming in finisher 
+Cause: possible arcing cauising jams 
+Action: fitted tranfer belt, fuser rollers and primary charger parts 
+Parts: fitted mx-950hk, mx-950kc, mx-950wc, mx-900tt,  
+
 

@@ -95,7 +95,7 @@
 95Action: strip print engine check all drums ok, clean and test 
 96Action: replaced finisher door and test 
 97Action: update firmware to version CSTPP.052.214.fls 
-98Action: reboot mechine gor error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
+98Action: reboot mechine got error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
 99Action: fitted drum and charger ordered new door 
 100Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
 101Action: replace whole DSDF 
@@ -104,3 +104,8 @@
 104Action: fitted new drum and charger 
 105Action: fitted new magenta drum unit feed clutch for waste motor and paper deck feed rollers 
 106Action: faxes had printed out after visit by Taz and me 2 hrs earlier 
+107Action: machine working on arrival. update firmware and test finisher 
+108Action: fitted fax MX-FX11 to machine and set country code in sim66-2 
+109Action: strip out bk drum and dev and clean area ordered black dev 
+110Action: replaced black dev, drum and charger 
+111Action: fitted tranfer belt, fuser rollers and primary charger parts 

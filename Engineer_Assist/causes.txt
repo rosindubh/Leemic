@@ -104,3 +104,8 @@
 104Cause: drum blade 
 105Cause: drum seized 
 106Cause: nff 
+107Cause: communication error between machine and finisher 
+108Cause: fit fax module for Clarity Glamorgan 
+109Cause: black dev dumped 
+110Cause: feint black due to black dev being dumped 
+111Cause: possible arcing cauising jams 

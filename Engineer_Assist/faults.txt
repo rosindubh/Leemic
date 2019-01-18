@@ -31,7 +31,7 @@
 31Fault: jamming in adf 
 32Fault: not printing on the right paper 
 33Fault: L4-18 error code 
-34Fault: E4-18 error code 
+34Fault: L4-18 error code 
 35Fault: maintenance call TA 
 36Fault: E4-17 bk drum rotation error 
 37Fault: black streaks 
@@ -104,3 +104,8 @@
 104Fault: black lines 
 105Fault: rtf 
 106Fault: faxs stuck in memory 
+107Fault: F1-00 
+108Fault: fit fax module 
+109Fault: feint copies 
+110Fault: rtf 
+111Fault: jamming in finisher 

@@ -104,3 +104,8 @@
 104Parts: fitted mx-407mk, mx-60grsa 
 105Parts: nrolr2125fczz, nrolr2126fczz, nrolr2120fczz, mx-60gu-sa, pclc-0399fczz, rmotp1069fcpz 
 106Parts: none 
+107Parts: none 
+108Parts: MX-FX11 
+109Parts: requires mx-62gvsa 
+110Parts: fitted mx-62grsa, mx-62gvba, mx-750mk
+111Parts: fitted mx-950hk, mx-950kc, mx-950wc, mx-900tt,  
