@@ -576,6 +576,7 @@ def peripherals():
 \t\t\t\t(17) MX-FN28 MX-FN29\tMX-PN15(A/B/C/D) parts
 \t\t\t\t(18) MX-FN21 MX-FN22 service
 \t\t\t\t(19) MX-FN21 MX-FN22 parts
+\t\t\t\t(20) MX-FX11 service
 
 \t\t\t\t(999) Exit''')
 
@@ -649,6 +650,9 @@ def peripherals():
             peripherals()
         elif model_number == '19':
             webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN21/mx-fn21_mx-fn22_parts.pdf')
+            peripherals()
+        elif model_number == '20':
+            webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FX11/00ZMXFX11_S2E.pdf')
             peripherals()
         elif model_number == '999':
             main_menu()
