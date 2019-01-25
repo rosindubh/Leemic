@@ -109,3 +109,13 @@
 109Parts: requires mx-62gvsa 
 110Parts: fitted mx-62grsa, mx-62gvba, mx-750mk
 111Parts: fitted mx-950hk, mx-950kc, mx-950wc, mx-900tt,  
+112Parts: none 
+113Parts: requires vhplg248nl-1 2 off, mlevp0959fcz1, mlevp0958fczz, then replace dunt-8052ds14 
+114Parts: mx-620b1, mx-620tl 
+115Parts: fax module 
+116Parts: fitted 1 * ar-620rt 
+117Parts: ar-620rt 
+118Parts: none 
+119Parts: fitted cltr808 times 3 
+120Parts: none 
+121Parts: mx-360wb 

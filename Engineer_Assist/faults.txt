@@ -109,3 +109,13 @@
 109Fault: feint copies 
 110Fault: rtf 
 111Fault: jamming in finisher 
+112Fault: lines 
+113Fault: jamming 
+114Fault: lines 
+115Fault: install fax module 
+116Fault: jamming 
+117Fault: jamming 
+118Fault: A1-4112 motor failure 
+119Fault: maintenance call 
+120Fault: jamming 
+121Fault: pink lines 

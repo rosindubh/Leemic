@@ -109,3 +109,13 @@
 109Action: strip out bk drum and dev and clean area ordered black dev 
 110Action: replaced black dev, drum and charger 
 111Action: fitted tranfer belt, fuser rollers and primary charger parts 
+112Action: remove ITB cleaner and claen dlade 
+113Action: output assembly worn will try to repair may require new 
+114Action: replaced transfer1 belt and blade 
+115Action: fitted fax module and test 
+116Action: paper concertinered once on a run in the finisher at the hole punch. cleaned all sensor and rollers replaced tray 2 ppu rollers and test 300 copies double sided 
+117Action: cleaned all feed rollers and all areas of machine and replaced tray 1 feed rollers
+118Action: bend frame of solenoid to reduce gap between pawl arm and coil 
+119Action: call asked for all units but on arrival found black at 25%. Replaced all colour imaging units 
+120Action: cleaned sensors and interior, checked ppu rollers. customer not loading paper correct advised 
+121Action: clean print engine and coronas/lasers. fitted web 

@@ -779,3 +779,75 @@ Action: fitted tranfer belt, fuser rollers and primary charger parts
 Parts: fitted mx-950hk, mx-950kc, mx-950wc, mx-900tt,  
 
 
+Date: (21, 1, 2019) Time: (8, 46, 18) 
+Machine type: sharp mx-6500 
+Fault: lines 
+Cause: contamination on ITB cleaner blade 
+Action: remove ITB cleaner and claen dlade 
+Parts: none 
+
+Date: (21, 1, 2019) Time: (8, 46, 18) 
+Machine type: sharp mx-2600 
+Fault: jamming 
+Cause: output assembly 
+Action: output assembly worn will try to repair may require new 
+Parts: requires vhplg248nl-1 2 off, mlevp0959fcz1, mlevp0958fczz, then replace dunt-8052ds14 
+
+Date: (21, 1, 2019) Time: (8, 46, 18) 
+Machine type: sharp mx6500 
+Fault: lines 
+Cause: tranfer belt 1 blade flipped 
+Action: replaced transfer1 belt and blade 
+Parts: mx-620b1, mx-620tl 
+
+Date: (23, 1, 2019) Time: (9, 32, 4) 
+Machine type: sharp mx-2640 
+Fault: install fax module 
+Cause: fit fax module 
+Action: fitted fax module and test 
+Parts: fax module 
+
+Date: (23, 1, 2019) Time: (9, 32, 4) 
+Machine type: sharp mx-6500 
+Fault: jamming 
+Cause: input to finisher from de-curl unit 
+Action: paper concertinered once on a run in the finisher at the hole punch. cleaned all sensor and rollers replaced tray 2 ppu rollers and test 300 copies double sided 
+Parts: fitted 1 * ar-620rt 
+
+Date: (23, 1, 2019) Time: (9, 32, 4) 
+Machine type: sharp mx-2614 
+Fault: jamming 
+Cause: pickup rollers worn and tray 4 sep roller out of position
+Action: cleaned all feed rollers and all areas of machine and replaced tray 1 feed rollers
+Parts: ar-620rt 
+
+Date: (23, 1, 2019) Time: (16, 10, 9) 
+Machine type: samsung c2670FW 
+Fault: A1-4112 motor failure 
+Cause: solenoid for main drive not working 
+Action: bend frame of solenoid to reduce gap between pawl arm and coil 
+Parts: none 
+
+Date: (23, 1, 2019) Time: (16, 10, 9) 
+Machine type: samsung clx-4300 
+Fault: maintenance call 
+Cause: requires all colour imaging units 
+Action: call asked for all units but on arrival found black at 25%. Replaced all colour imaging units 
+Parts: fitted cltr808 times 3 
+
+Date: (23, 1, 2019) Time: (16, 10, 9) 
+Machine type: samsung M4070FR 
+Fault: jamming 
+Cause: nff 
+Action: cleaned sensors and interior, checked ppu rollers. customer not loading paper correct advised 
+Parts: none 
+
+Date: (23, 1, 2019) Time: (16, 10, 9) 
+Machine type: sharp mx-2614 
+Fault: pink lines 
+Cause: dirty corona 
+Action: clean print engine and coronas/lasers. fitted web 
+Parts: fitted mx-360wb 
+
+
+

@@ -109,3 +109,13 @@
 109Cause: black dev dumped 
 110Cause: feint black due to black dev being dumped 
 111Cause: possible arcing cauising jams 
+112Cause: contamination on ITB cleaner blade 
+113Cause: output assembly 
+114Cause: tranfer belt 1 blade flipped 
+115Cause: fit fax module 
+116Cause: input to finisher from de-curl unit 
+117Cause: pickup rollers worn and tray 4 sep roller out of position
+118Cause: solenoid for main drive not working 
+119Cause: requires all colour imaging units 
+120Cause: nff 
+121Cause: dirty corona 
