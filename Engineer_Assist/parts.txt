@@ -118,4 +118,4 @@
 118Parts: none 
 119Parts: fitted cltr808 times 3 
 120Parts: none 
-121Parts: mx-360wb 
+121Parts: fitted mx-360wb 
