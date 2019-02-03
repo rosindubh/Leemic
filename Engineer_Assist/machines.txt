@@ -119,3 +119,4 @@
 119Machine type: samsung clx-4300 
 120Machine type: samsung M4070FR 
 121Machine type: sharp mx-2614 
+122Machine type: sharp mx-3060v 

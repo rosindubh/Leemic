@@ -38,6 +38,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(10)  Office 365 Settings for Email
     \t\t\t\t\t\t\t\t\t(11)  UART communication issue at JMW
     \t\t\t\t\t\t\t\t\t(12)  Full Calibration
+    \t\t\t\t\t\t\t\t\t(13)  Lexmark Acronyms
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -73,6 +74,8 @@ def main_menu():
         uart_jmw()
     elif user_choice == '12':
         full_cal()
+    elif user_choice =='13':
+        lex_acronyms()
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -828,7 +831,16 @@ def full_cal():
     input('Enter to continue...')
     main_menu()
 
-
+def lex_acronyms():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    lex_acron_file = open('/home/phil/Documents/lexmark_acronyms', 'r')
+    lex_acron_file_whole = lex_acron_file.read()
+    print(lex_acron_file_whole)
+    input('Enter to continue...')
+    main_menu()
 
 
 

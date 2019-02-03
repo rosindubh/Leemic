@@ -119,3 +119,4 @@
 119Fault: maintenance call 
 120Fault: jamming 
 121Fault: pink lines 
+122Fault: not printing correctly 

@@ -119,3 +119,4 @@
 119Action: call asked for all units but on arrival found black at 25%. Replaced all colour imaging units 
 120Action: cleaned sensors and interior, checked ppu rollers. customer not loading paper correct advised 
 121Action: clean print engine and coronas/lasers. fitted web 
+122Action: ok on arrival, customer had samples but when asked to print them again this morning prints ok 

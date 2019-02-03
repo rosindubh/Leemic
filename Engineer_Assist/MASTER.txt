@@ -852,3 +852,10 @@ Parts: fitted mx-360wb
 
 
 
+Date: (1, 2, 2019) Time: (8, 59, 3) 
+Machine type: sharp mx-3060v 
+Fault: not printing correctly 
+Cause: nff  
+Action: ok on arrival, customer had samples but when asked to print them again this morning prints ok 
+Parts: none 
+
