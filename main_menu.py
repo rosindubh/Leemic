@@ -700,7 +700,7 @@ def ip():
     print('''\t\t\t\t\t\t\t\tIP ADDRESS SUB MENU\n\n\n\n
 \t\t\t\t\t(1) AST
 \t\t\t\t\t(2) Palletower
-
+\t\t\t\t\t(3) Oxley
 
 
 ''')
@@ -716,6 +716,13 @@ def ip():
         ip_file = open('/home/phil/Documents/PALLETOWER_IP_ADDRESSES')
         ip_file_whole = ip_file.read()
         print(ip_file_whole)
+        ip_file.close()
+        input('Enter to continue...')
+        main_menu()
+    elif ip_choice == '3':
+        ip_file = open('/home/phil/Documents/OXLEY_IP_ADDRESSES')
+        ip_file_whole = ip_file.read()
+        print('\n\n', ip_file_whole)
         ip_file.close()
         input('Enter to continue...')
         main_menu()
