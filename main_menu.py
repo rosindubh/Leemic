@@ -39,6 +39,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(11)  UART communication issue at JMW
     \t\t\t\t\t\t\t\t\t(12)  Full Calibration
     \t\t\t\t\t\t\t\t\t(13)  Lexmark Acronyms
+    
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -76,6 +77,7 @@ def main_menu():
         full_cal()
     elif user_choice =='13':
         lex_acronyms()
+
     elif user_choice == '999':
         wiper()
         print('GOODBYE HAVE A NICE DAY...')
@@ -848,6 +850,7 @@ def lex_acronyms():
     print(lex_acron_file_whole)
     input('Enter to continue...')
     main_menu()
+
 
 
 
