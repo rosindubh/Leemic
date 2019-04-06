@@ -698,7 +698,7 @@ Date: (11, 1, 2019) Time: (16, 26, 47)
 Machine type: sharp mx-6500 
 Fault: jammed in fuser  
 Cause: fuser end of life 
-Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
+Action: fitted new fuser (note fuser had damage cosistent with having been dropped) 
 Parts: fitted mx-750fu 
 
 Date: (14, 1, 2019) Time: (12, 22, 21) 
@@ -858,4 +858,580 @@ Fault: not printing correctly
 Cause: nff  
 Action: ok on arrival, customer had samples but when asked to print them again this morning prints ok 
 Parts: none 
+
+Date: (4, 2, 2019) Time: (11, 13, 1) 
+Machine type: samsung C3060FR 
+Fault: no cyan 
+Cause: possible LSU failed 
+Action: tried new cyan unit no good, machine to be swapped out 
+Parts: none 
+
+Date: (4, 2, 2019) Time: (12, 0, 8) 
+Machine type: samsung clx-4250lx 
+Fault: itb cleaner needs replacing 
+Cause: end of life 
+Action: replaced itb cleaner and reset counter 
+Parts: jc96-06246a 
+
+Date: (4, 2, 2019) Time: (14, 46, 48) 
+Machine type: sharp mx-5070v 
+Fault: paper jamed in fuser can't clear 
+Cause: high toner coverage on A4 sheet 
+Action: removed paper, customer had damaged fur roller replaced fuser roller and belt 
+Parts: mx-608fb, mx607fu 
+
+Date: (6, 2, 2019) Time: (16, 10, 4) 
+Machine type: samsung clx-4580 
+Fault: won't turn on won't print 
+Cause: machine not switched on at side 
+Action: ok on arrival customer advised how to turn machine on 
+Parts: none 
+
+Date: (6, 2, 2019) Time: (16, 10, 4) 
+Machine type: samsung M4020ND 
+Fault: noisy 
+Cause: retard roller not turning 
+Action: replaced retard roller and ordered parts 
+Parts: fitted jc90-01063b, requires, jc73-00141a, jc90-01279b, jc90-01063b, jc61-04327a 
+
+Date: (7, 2, 2019) Time: (10, 16, 53) 
+Machine type: samsung m4020nd 
+Fault: rtf 
+Cause: cassette noise due to retard roller not sitting square 
+Action: replaced cassette with new one from warehouse 
+Parts: new cassette 
+
+Date: (7, 2, 2019) Time: (12, 2, 16) 
+Machine type: samsung clx-4250 
+Fault: rtf control panel 
+Cause: on off switch not working 
+Action: replaced control panel and set MF to A5 
+Parts: JC97-04499A 
+
+Date: (7, 2, 2019) Time: (15, 0, 55) 
+Machine type: samsung c3060fr 
+Fault: prints going to mf tray 
+Cause: print driver settings 
+Action: install correct driver and set up 
+Parts: none 
+
+Date: (7, 2, 2019) Time: (16, 31, 36) 
+Machine type: samsung m4020nd 
+Fault: jammed 
+Cause: paper poorly loaded 
+Action: remove jam and reload paper customer advised 
+Parts: none 
+
+Date: (11, 2, 2019) Time: (11, 40, 52) 
+Machine type: samsung c3060fr 
+Fault: not printing to tray 1 
+Cause: tray protect set in machine settings? 
+Action: turn off tray protect test ok 
+Parts: none 
+
+Date: (11, 2, 2019) Time: (11, 40, 52) 
+Machine type: sharp mx-4070 
+Fault: jamming tray 3 
+Cause: ppu rollers worn 
+Action: replaced and ordered rollers for trays 1 and 2 
+Parts: y 
+
+Date: (11, 2, 2019) Time: (14, 40, 17) 
+Machine type: samsung clx-6260fr 
+Fault: a1-4112 error 
+Cause: solenoid on main motor cam out of place 
+Action: remove solenoid and adjust to reduce amount of travel. Test ok 
+Parts: none 
+
+Date: (12, 2, 2019) Time: (12, 35, 17) 
+Machine type: samsung slx-4250lx 
+Fault: won't boot can't print 
+Cause: possible MSOK failure 
+Action: tried new main board no joy will get main board and MSOK from office 
+Parts: none 
+
+Date: (12, 2, 2019) Time: (16, 8, 42) 
+Machine type: sharp MX-3110N 
+Fault: black lines 
+Cause: ITB cleaner / belt 
+Action: cleaned blade oredered new belt and blade 
+Parts: requires MX-230B1, MX-230TL 
+
+Date: (13, 2, 2019) Time: (10, 59, 59) 
+Machine type: samsung slx-4250lx 
+Fault: won't come to ready 
+Cause: possible MSOK 
+Action: replaced main board MSOK HDD and control panel 
+Parts: none 
+
+Date: (13, 2, 2019) Time: (15, 34, 2) 
+Machine type: sharp mx-m565 
+Fault: jamming 
+Cause: possible fuser fan failure 
+Action: unable to test from trays 3 and 4 as machine gives L4-31 error fuser fan failure 
+Parts: requires NFANP0128FCPZ, LHLDZ1679FCZZ 
+
+Date: (14, 2, 2019) Time: (9, 49, 13) 
+Machine type: sharp mx-6070 
+Fault: F3-00 error 
+Cause: fuser roller coating stripped 
+Action: replaced fuser roller and bearings 
+Parts: fitted mx-607lh, NBRGY0957FCZZ times 2 
+
+Date: (14, 2, 2019) Time: (11, 21, 51) 
+Machine type: sharp mx-m1205 
+Fault: clicking noise 
+Cause: waste toner tube blocked 
+Action: waste box not fully in. remove box and fit new. remove blockage and tested ok 
+Parts: none 
+
+Date: (14, 2, 2019) Time: (13, 43, 22) 
+Machine type: samsung M4580|Fx 
+Fault: won't boot 
+Cause: not known 
+Action: return machine to workshop 
+Parts: none 
+
+Date: (15, 2, 2019) Time: (11, 49, 6) 
+Machine type: Lexmark C6160 
+Fault: having to swipe cards twice 
+Cause: firmware issue being investigated by Papercut and Lexmark 
+Action: reboot machine and test swipe card operation 
+Parts: none 
+
+Date: (15, 2, 2019) Time: (14, 46, 3) 
+Machine type: sharp mx-6500 
+Fault: screen not responding 
+Cause: out of calibration 
+Action: entered SIM 65-1 to calibrate, constant bleeping. Power down and reboot. Calibrate using SIM 65-1 tested with customer 
+Parts: none 
+
+Date: (18, 2, 2019) Time: (9, 27, 11) 
+Machine type: sharp mx-m565 
+Fault: jamming 
+Cause: various 
+Action: replaced both fuser fans, inpit and output assembly and tray 1 ppu assembly 
+Parts: parts from warehouse 
+
+Date: (18, 2, 2019) Time: (16, 2, 20) 
+Machine type: sharp mx-m363 
+Fault: dk service 
+Cause: service done 
+Action: fitted parts 
+Parts: mx-500gr, mx-503mk, mx-410wc, ar-620rt 
+
+Date: (19, 2, 2019) Time: (16, 12, 42) 
+Machine type: samsung M4070FR 
+Fault: jamming 
+Cause: fuser worn 
+Action: removed fuser clean and inspect requires new 
+Parts: requires JC91-01024A 
+
+Date: (20, 2, 2019) Time: (10, 20, 10) 
+Machine type: sharp MX-M1055 
+Fault: H5-01 
+Cause: jam at fuser exit 
+Action: 8 sheets of paper jammed in fuser exit. Remove paper and replaced tray 5 ppu rollers 
+Parts: MX-850RT 
+
+Date: (20, 2, 2019) Time: (12, 2, 38) 
+Machine type: sharp MX-3070 
+Fault: banding 
+Cause: dirty coronas 
+Action: clean coronas and lasers tested with customer ok 
+Parts: none 
+
+Date: (20, 2, 2019) Time: (14, 37, 41) 
+Machine type: sharp mx-5141 
+Fault: jamming double sided 
+Cause: duplex 
+Action: remove r/h door and clean all rollers and sensors. removed built up crud on black feed rollers tested with customer ok 
+Parts: none 
+
+Date: (21, 2, 2019) Time: (9, 53, 38) 
+Machine type: sharp mx-5070 
+Fault: ghosting 
+Cause: suspect fuser pressure roller 
+Action: fuser belt replaced recently but pressure roller was not, also oneway gear for fuser belt missing 
+Parts: requires mx-607lh, ngerh2218fczz 
+
+Date: (21, 2, 2019) Time: (11, 55, 24) 
+Machine type: sharp mx-5140 
+Fault: jamming 
+Cause: jams from tray 3 
+Action: machine working on arrival, replaced trays 3/4 pickup rollers, tested no jams 
+Parts: ar-620rt times 2 
+
+Date: (21, 2, 2019) Time: (15, 7, 5) 
+Machine type: sharp mx-5140 
+Fault: jamming 
+Cause: ppu and fuser 
+Action: replaced bk dev drum and charger, refurb fuser fitted ppu rollers 
+Parts: fitted mx510mk, mx31grsa, ar620rt, mx361fb, mx510lh, mx510wb 
+
+Date: (22, 2, 2019) Time: (13, 39, 17) 
+Machine type: samsung m4070fr 
+Fault: rtf 
+Cause: jamming in fuser 
+Action: replaced fuser 
+Parts: JC91-01024A 
+
+Date: (22, 2, 2019) Time: (16, 8, 11) 
+Machine type: samsung M4070FR 
+Fault: marks 
+Cause: toner build up on fuser roller 
+Action: remove fuser and clean roller, tested ok 
+Parts: none 
+
+Date: (25, 2, 2019) Time: (10, 55, 1) 
+Machine type: sharp mx-4112 
+Fault: marks jamming 
+Cause: marks on rear of certificates 
+Action: replaced black drum and charger, itb1 belt and blade tray 1 ppu 
+Parts: mx-850rt, mx-510tl, mx-510mk, mx-31grsa, mx-510b1 
+
+Date: (26, 2, 2019) Time: (15, 19, 26) 
+Machine type: sharp mx-m565 
+Fault: jamming 
+Cause: possible r/h door or fuser 
+Action: remove r/h door, fuser and input assembly, Clean input assembly, reform frame at top of door where deflector sits and replaced lwr fuser roller 
+Parts: mx-560lh 
+
+Date: (27, 2, 2019) Time: (10, 55, 57) 
+Machine type: sharp mx-2614 
+Fault: ghosting 
+Cause: customer copying onto card using A4 palin setting 
+Action: checked drums. ITB and fuser all look ok 
+Parts: none 
+
+Date: (27, 2, 2019) Time: (14, 1, 51) 
+Machine type:  
+Fault:  
+Cause:  
+Action:  
+Parts:  
+
+Date: (28, 2, 2019) Time: (11, 16, 30) 
+Machine type: sharp mx-4070 
+Fault: cyan line when using adf 
+Cause: dirt on slip glass 
+Action: cleaned slip glass and advised customer 
+Parts: none 
+
+Date: (11, 3, 2019) Time: (9, 9, 10) 
+Machine type: mx-4070 
+Fault: jamming tray 1 
+Cause: ppu rollers word 
+Action: replaced ppu rollers to tray 1 
+Parts: nrolr2120fczz, nrolr2125fczz, nrolr2126fczz 
+
+Date: (11, 3, 2019) Time: (10, 20, 45) 
+Machine type: samsung 2670 
+Fault: error A1-4212 
+Cause: motor solenoid sticking 
+Action: remove solenoid and reform stop plate 
+Parts: none 
+
+Date: (11, 3, 2019) Time: (12, 38, 45) 
+Machine type: samsung c8640 
+Fault: requires imaging units 
+Cause: replaced yellow and magenta imaging units 
+Action:  
+Parts: 2 imaging units clt-c659s 
+
+Date: (11, 3, 2019) Time: (15, 27, 50) 
+Machine type: mx-6070 
+Fault: stuck on scanning 
+Cause: not known 
+Action: machine unplugged from power on arrival. reconnect and test scanning with customer ok 
+Parts: none 
+
+Date: (12, 3, 2019) Time: (10, 16, 35) 
+Machine type: SHARP MX-363 
+Fault: SERVICE 
+Cause: SERVICE 
+Action: service done 
+Parts: mx-500gr, mx-410wc, mx-620rt,mx-510mk,mx-503uh,mx-503lh 
+
+Date: (12, 3, 2019) Time: (11, 40, 17) 
+Machine type: mx-m565 
+Fault: jamming 
+Cause: ongoing issue 
+Action: remove jam and tested, machine performed better when paper turned over, customer not using our paper 
+Parts: none 
+
+Date: (13, 3, 2019) Time: (14, 28, 53) 
+Machine type: sharp mx-3070 
+Fault: error e7-90 e7-80 
+Cause: firmware 
+Action: update firmware 
+Parts: none 
+
+Date: (13, 3, 2019) Time: (16, 2, 52) 
+Machine type: samsung c2620dw 
+Fault: cassette stuck 
+Cause: customer 
+Action: remove cassette and reset 
+Parts: none 
+
+Date: (14, 3, 2019) Time: (10, 39, 40) 
+Machine type: sharp mx-6500 
+Fault: error F0-86 
+Cause: lifter motor FNM110 
+Action: test lifter motor FNM110 in SIM3-3 ok. Cable for finisher rubbing againt wall at rear. move machine and lock feet 
+Parts: none 
+
+Date: (14, 3, 2019) Time: (11, 32, 21) 
+Machine type: sharp mx-5050 
+Fault: TA maintenance 
+Cause: not reset by previous engineer 
+Action: reset TA 
+Parts: none 
+
+Date: (14, 3, 2019) Time: (12, 53, 58) 
+Machine type: sharp mx-6240N 
+Fault: jamming 
+Cause: various jams 
+Action: cleaned paper path, replaced PPU rollers to trays 1 and 2 removed paper from output of finisher, vertical guide not in place, paper poorly loaded in tray 2 
+Parts: ar-620rt times 2 
+
+Date: (14, 3, 2019) Time: (15, 22, 3) 
+Machine type: sharp mx-m363 
+Fault: adf jams 
+Cause: nff 
+Action: adf working ok on arrival, machine very dirty drum dev and charger all worn clean and replaced parts 
+Parts: mx-503mk, mx-500gr, mx-500gv 
+
+Date: (15, 3, 2019) Time: (9, 53, 56) 
+Machine type: samsung 8640 
+Fault: rtf 
+Cause: fitted black imaging unit 
+Action: fitted black imaging unit 
+Parts: CLT-R659 
+
+Date: (18, 3, 2019) Time: (10, 22, 8) 
+Machine type: samsung 4020nd 
+Fault: jamming 
+Cause: print cartridge 
+Action: drive gear broken off print cartridge so drum not turning 
+Parts: none 
+
+Date: (18, 3, 2019) Time: (14, 21, 6) 
+Machine type: sharp mx-3070 
+Fault: jam won't clear 
+Cause: sppd1 logic high should be low 
+Action: strip adf found 2 post-it notes in paper pickup area. remove and tested adf ok 
+Parts: none 
+
+Date: (19, 3, 2019) Time: (13, 45, 1) 
+Machine type: sharp mx-c300p 
+Fault: reqires ITB belt torn 
+Cause: not known machine has 11K on clock 
+Action: replaced ITB and tested ok 
+Parts: mx-c30u1 
+
+Date: (19, 3, 2019) Time: (14, 0, 45) 
+Machine type: mx-4070 
+Fault: noise 
+Cause: nff 
+Action: nff 
+Parts: none 
+
+Date: (19, 3, 2019) Time: (16, 35, 28) 
+Machine type: sharp mx-3570 
+Fault: F1-22 
+Cause: finiser assist motor error or home sensor error 
+Action: tested motor FNM5 and sensor FNPS7 in sim 3-3 both ok 
+Parts: none 
+
+Date: (20, 3, 2019) Time: (9, 59, 52) 
+Machine type: sharp mx-m565 
+Fault: courtesy visit with Greg 
+Cause: investigate jamming 
+Action: customer had different paper but still jam issues 
+Parts: none 
+
+Date: (20, 3, 2019) Time: (12, 29, 48) 
+Machine type: sharp mx-7500 
+Fault: tandem tray won't close 
+Cause: cassette latches on both sides broken 
+Action: both cassette lock plates for tandem tray broken, ordered new 
+Parts: requires mlokc0025fczz times 2 
+
+Date: (21, 3, 2019) Time: (11, 38, 40) 
+Machine type: SHARP MX-5141 
+Fault: F2-65 F2-41 
+Cause: CYAN DEV TONER DENSITY ERROR 
+Action: CLEAN MACHINE FAULT RE-OCCURS 
+Parts: REQUIRES DUNT-9029DS11 AND MX-51GVSA 
+
+Date: (21, 3, 2019) Time: (13, 51, 18) 
+Machine type: sharp mxm232d 
+Fault: rtf 
+Cause: lines 
+Action: replace drum charger and cleaner blade 
+Parts: KAR200BL, AR250DM, AR310NC 
+
+Date: (22, 3, 2019) Time: (9, 50, 41) 
+Machine type: sharp mx-6500 
+Fault: F2-64 
+Cause: black dev concentration error 
+Action: black dev flat concentration poor replaced black dev 
+Parts: MX-62GVBA 
+
+Date: (22, 3, 2019) Time: (15, 11, 59) 
+Machine type: sharp MX-7500 
+Fault: rtf 
+Cause: catches on tandem tray broken 
+Action: catches taken from MX-6500 in warehouse and fitted 
+Parts: 2 times cassette catches (MLOKC0025FCZZ times 2 
+
+Date: (25, 3, 2019) Time: (10, 55, 58) 
+Machine type: sharp mx-5141 
+Fault: rtf 
+Cause: cyan dev flat 
+Action: replaced cyan dev and full calibration done 
+Parts: mx-51gvsa 
+
+Date: (25, 3, 2019) Time: (12, 1, 29) 
+Machine type: sharp mx-5070 
+Fault: jamming in ADF 
+Cause: blutack in paper path and white pressure plate that sits over slip glass out of place 
+Action: remove bluetack from path and refit white pressure plate, test operation ok 
+Parts: none 
+
+Date: (25, 3, 2019) Time: (13, 5, 42) 
+Machine type: sharp mx-5070v 
+Fault: H%-01 error 
+Cause: 5 jams on the run 
+Action: paper in tray 1 curled / meter not advanced so jam not removed / box in way of R/H door. Remove jam, replace paper and move box, requires Cyan toner customer doesn't have any 
+Parts: none 
+
+Date: (25, 3, 2019) Time: (16, 17, 45) 
+Machine type: sharp mx-4112 
+Fault: poor reds / blue lines 
+Cause: devs flat drums and blades worn 
+Action: replaced yellow drum, magenta/yellow devs, yellow/cyan chargers 
+Parts: mx-31grsa, mx-510mk times 2 
+
+Date: (26, 3, 2019) Time: (8, 41, 25) 
+Machine type: sharp mx-m565 
+Fault: jammed can't clear 
+Cause: jam in fuser 
+Action: replaced fuser as ordered by Greg, ongoing jamming issue still not resolved 
+Parts: DUNTW9068DS12 
+
+Date: (26, 3, 2019) Time: (11, 40, 11) 
+Machine type: sharp mx-301w 
+Fault: rtf top cover 
+Cause: wrong part ordered, re-order 
+Action: part ordered doesn't fit, re-order top cover (CCOV-0122US51) 
+Parts: REQUIRES CCOV-0112US51 
+
+Date: (26, 3, 2019) Time: (12, 33, 2) 
+Machine type: sharp mx-2614 
+Fault: feint black 
+Cause: black dev dumped 
+Action: fitted new drum charger and black dev 
+Parts: mx=36grsa, mx-36gvba, mx-230mk 
+
+Date: (27, 3, 2019) Time: (10, 47, 52) 
+Machine type: sharp mx-6500 
+Fault: RTF dev unit following F2-64 error at previous call 
+Cause: NFF 
+Action: no re-ocurrence of error code, did full calibration and tested ok 
+Parts: none 
+
+Date: (27, 3, 2019) Time: (12, 31, 2) 
+Machine type: sharp mx-5050 
+Fault: jamming 
+Cause: ppu rollers tray 1 
+Action: repaced ppu rollers and fuser parts 
+Parts: nrolr2120fczz, nrolr2125fczz, nrolr2126fczz, mx-600fb, mx-607lh 
+
+Date: (1, 4, 2019) Time: (10, 10, 25) 
+Machine type: mx-m565 
+Fault: courtesy 
+Cause: check on jams after fuser fitted 
+Action: jams today customer back on their original paper 
+Parts: nano 
+
+Date: (1, 4, 2019) Time: (13, 41, 44) 
+Machine type: sharp mx-5141 
+Fault: jams and not stapling 
+Cause: paper clip in top cover stopping it closing and sadle stitch stapler beyond repair 
+Action: stripped finiser stopped jamming sadle stich stapler needs replacing , sale and service advised 
+Parts: none 
+
+Date: (1, 4, 2019) Time: (16, 3, 11) 
+Machine type: samsung clx-9201 
+Fault: toner spill 
+Cause: customer spilled waste? 
+Action: inside of front door full of waste toner. cleaned and tested ok 
+Parts: none 
+
+Date: (2, 4, 2019) Time: (14, 57, 0) 
+Machine type: sharp mx-c300p 
+Fault: smudges 
+Cause: small piece of plastic in cyan drum 
+Action: removed plasic piece trapped in cyan drum and test with customer 
+Parts: none 
+
+Date: (3, 4, 2019) Time: (10, 9, 42) 
+Machine type: sharp mx-5050 
+Fault: not printing 
+Cause: customer sending print jobs but not printing when released using PaperCut 
+Action: reboot machine jobs now printing 
+Parts: none 
+
+Date: (3, 4, 2019) Time: (12, 28, 26) 
+Machine type: sharp mx-2614 
+Fault: FK3 error 
+Cause: web out 
+Action: replaced web and pickup rollers to both trays 
+Parts: mx-360wb, mx-620rt times 2 
+
+Date: (3, 4, 2019) Time: (13, 4, 46) 
+Machine type: sharp mx-4140 
+Fault: missing pages when stapling 
+Cause: belts in finisher worn 
+Action: order shuffle belts in finsher 
+Parts: requires OCW4141P051// times 2 
+
+Date: (3, 4, 2019) Time: (13, 4, 46) 
+Machine type: sharp mx-4140 
+Fault: missing pages when stapling 
+Cause: belts in fuser worn order new 
+Action: belts in 
+Parts:  
+
+Date: (4, 4, 2019) Time: (9, 18, 14) 
+Machine type: sharp mx-2310U 
+Fault: L4-06 
+Cause: transfer belt lift sensor dirty 
+Action: clean print engine and test 
+Parts: none 
+
+Date: (4, 4, 2019) Time: (11, 42, 58) 
+Machine type: lexmark M5255 
+Fault: screen lock and firmware error 900.00 
+Cause: firmware 
+Action: spoken to Lexmark and advised to update firmware (Case number 1-298120918510) 
+Parts: Firmware version 052.299 
+
+Date: (4, 4, 2019) Time: (12, 18, 59) 
+Machine type: SHARP MX-M754 
+Fault: fk4 
+Cause: lower web run out 
+Action: order web drum and mk kit c/q very poor 
+Parts: requires mx-754dr, mx-754mk, mx-754wb, mx-754hk
+
+
+
+Date: (5, 4, 2019) Time: (11, 15, 58) 
+Machine type: sharp mx-4112 
+Fault: colour misregistered 
+Cause: possible laser issue 
+Action: replaced ITB belt and blade, Input data from office machine no better. Tweeked settings to get best result 
+Parts: MX-510B1, MX-510TL 
 
