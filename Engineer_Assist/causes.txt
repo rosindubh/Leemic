@@ -120,3 +120,85 @@
 120Cause: nff 
 121Cause: dirty corona 
 122Cause: nff  
+123Cause: possible LSU failed 
+124Cause: end of life 
+125Cause: high toner coverage on A4 sheet 
+126Cause: machine not switched on at side 
+127Cause: retard roller not turning 
+128Cause: cassette noise due to retard roller not sitting square 
+129Cause: on off switch not working 
+130Cause: print driver settings 
+131Cause: paper poorly loaded 
+132Cause: tray protect set in machine settings? 
+133Cause: ppu rollers worn 
+134Cause: solenoid on main motor cam out of place 
+135Cause: possible MSOK failure 
+136Cause: ITB cleaner / belt 
+137Cause: possible MSOK 
+138Cause: possible fuser fan failure 
+139Cause: fuser roller coating stripped 
+140Cause: waste toner tube blocked 
+141Cause: not known 
+142Cause: firmware issue being investigated by Papercut and Lexmark 
+143Cause: out of calibration 
+144Cause: various 
+145Cause: service done 
+146Cause: fuser worn 
+147Cause: jam at fuser exit 
+148Cause: dirty coronas 
+149Cause: duplex 
+150Cause: suspect fuser pressure roller 
+151Cause: jams from tray 3 
+152Cause: ppu and fuser 
+153Cause: jamming in fuser 
+154Cause: toner build up on fuser roller 
+155Cause: marks on rear of certificates 
+156Cause: possible r/h door or fuser 
+157Cause: customer copying onto card using A4 palin setting 
+158Cause:  
+159Cause: dirt on slip glass 
+160Cause: ppu rollers word 
+161Cause: motor solenoid sticking 
+162Cause: replaced yellow and magenta imaging units 
+163Cause: not known 
+164Cause: SERVICE 
+165Cause: ongoing issue 
+166Cause: firmware 
+167Cause: customer 
+168Cause: lifter motor FNM110 
+169Cause: not reset by previous engineer 
+170Cause: various jams 
+171Cause: nff 
+172Cause: fitted black imaging unit 
+173Cause: print cartridge 
+174Cause: sppd1 logic high should be low 
+175Cause: not known machine has 11K on clock 
+176Cause: nff 
+177Cause: finiser assist motor error or home sensor error 
+178Cause: investigate jamming 
+179Cause: cassette latches on both sides broken 
+180Cause: CYAN DEV TONER DENSITY ERROR 
+181Cause: lines 
+182Cause: black dev concentration error 
+183Cause: catches on tandem tray broken 
+184Cause: cyan dev flat 
+185Cause: blutack in paper path and white pressure plate that sits over slip glass out of place 
+186Cause: 5 jams on the run 
+187Cause: devs flat drums and blades worn 
+188Cause: jam in fuser 
+189Cause: wrong part ordered, re-order 
+190Cause: black dev dumped 
+191Cause: NFF 
+192Cause: ppu rollers tray 1 
+193Cause: check on jams after fuser fitted 
+194Cause: paper clip in top cover stopping it closing and sadle stitch stapler beyond repair 
+195Cause: customer spilled waste? 
+196Cause: small piece of plastic in cyan drum 
+197Cause: customer sending print jobs but not printing when released using PaperCut 
+198Cause: web out 
+199Cause: belts in finisher worn 
+200Cause: belts in fuser worn order new 
+201Cause: transfer belt lift sensor dirty 
+202Cause: firmware 
+203Cause: lower web run out 
+204Cause: possible laser issue 

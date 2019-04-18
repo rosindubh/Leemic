@@ -120,3 +120,85 @@
 120Fault: jamming 
 121Fault: pink lines 
 122Fault: not printing correctly 
+123Fault: no cyan 
+124Fault: itb cleaner needs replacing 
+125Fault: paper jamed in fuser can't clear 
+126Fault: won't turn on won't print 
+127Fault: noisy 
+128Fault: rtf 
+129Fault: rtf control panel 
+130Fault: prints going to mf tray 
+131Fault: jammed 
+132Fault: not printing to tray 1 
+133Fault: jamming tray 3 
+134Fault: a1-4112 error 
+135Fault: won't boot can't print 
+136Fault: black lines 
+137Fault: won't come to ready 
+138Fault: jamming 
+139Fault: F3-00 error 
+140Fault: clicking noise 
+141Fault: won't boot 
+142Fault: having to swipe cards twice 
+143Fault: screen not responding 
+144Fault: jamming 
+145Fault: dk service 
+146Fault: jamming 
+147Fault: H5-01 
+148Fault: banding 
+149Fault: jamming double sided 
+150Fault: ghosting 
+151Fault: jamming 
+152Fault: jamming 
+153Fault: rtf 
+154Fault: marks 
+155Fault: marks jamming 
+156Fault: jamming 
+157Fault: ghosting 
+158Fault:  
+159Fault: cyan line when using adf 
+160Fault: jamming tray 1 
+161Fault: error A1-4212 
+162Fault: requires imaging units 
+163Fault: stuck on scanning 
+164Fault: SERVICE 
+165Fault: jamming 
+166Fault: error e7-90 e7-80 
+167Fault: cassette stuck 
+168Fault: error F0-86 
+169Fault: TA maintenance 
+170Fault: jamming 
+171Fault: adf jams 
+172Fault: rtf 
+173Fault: jamming 
+174Fault: jam won't clear 
+175Fault: reqires ITB belt torn 
+176Fault: noise 
+177Fault: F1-22 
+178Fault: courtesy visit with Greg 
+179Fault: tandem tray won't close 
+180Fault: F2-65 F2-41 
+181Fault: rtf 
+182Fault: F2-64 
+183Fault: rtf 
+184Fault: rtf 
+185Fault: jamming in ADF 
+186Fault: H%-01 error 
+187Fault: poor reds / blue lines 
+188Fault: jammed can't clear 
+189Fault: rtf top cover 
+190Fault: feint black 
+191Fault: RTF dev unit following F2-64 error at previous call 
+192Fault: jamming 
+193Fault: courtesy 
+194Fault: jams and not stapling 
+195Fault: toner spill 
+196Fault: smudges 
+197Fault: not printing 
+198Fault: FK3 error 
+199Fault: missing pages when stapling 
+200Fault: missing pages when stapling 
+201Fault: L4-06 
+202Fault: screen lock and firmware error 900.00 
+203Fault: fk4 
+204Fault: colour misregistered 

@@ -39,7 +39,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(11)  UART communication issue at JMW
     \t\t\t\t\t\t\t\t\t(12)  Full Calibration
     \t\t\t\t\t\t\t\t\t(13)  Lexmark Acronyms
-    
+    \t\t\t\t\t\t\t\t\t(14)  FF-00 notes on MX-6500
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -75,8 +75,10 @@ def main_menu():
         uart_jmw()
     elif user_choice == '12':
         full_cal()
-    elif user_choice =='13':
+    elif user_choice == '13':
         lex_acronyms()
+    elif user_choice == '14':
+        FF00()
 
     elif user_choice == '999':
         wiper()
@@ -851,6 +853,16 @@ def lex_acronyms():
     input('Enter to continue...')
     main_menu()
 
+def FF00():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    ff00 = open('/home/phil/Documents/MX-6500_double_feed_sensor_notes.txt', 'r')
+    ff00_whole = ff00.read()
+    print(ff00_whole)
+    input('Enter to continue...')
+    main_menu()
 
 
 

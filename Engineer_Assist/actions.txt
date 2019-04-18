@@ -97,7 +97,7 @@
 97Action: update firmware to version CSTPP.052.214.fls 
 98Action: reboot mechine got error E6-11 shading correction error in adf. spoken to Ivan looking to replace entire adf and repair back at workshop 
 99Action: fitted drum and charger ordered new door 
-100Action: fitted new fusr (note fuser had damage cosistent with having been dropped) 
+100Action: fitted new fuser (note fuser had damage cosistent with having been dropped) 
 101Action: replace whole DSDF 
 102Action: replaced document feeder 
 103Action: tried new print driver from sharp website, and tried LPD / HP / and IPP settings in CUPS but no improvement. seems to print ok from mac apps problem seems to be with Microsoft apps (excell and word) 
@@ -120,3 +120,85 @@
 120Action: cleaned sensors and interior, checked ppu rollers. customer not loading paper correct advised 
 121Action: clean print engine and coronas/lasers. fitted web 
 122Action: ok on arrival, customer had samples but when asked to print them again this morning prints ok 
+123Action: tried new cyan unit no good, machine to be swapped out 
+124Action: replaced itb cleaner and reset counter 
+125Action: removed paper, customer had damaged fur roller replaced fuser roller and belt 
+126Action: ok on arrival customer advised how to turn machine on 
+127Action: replaced retard roller and ordered parts 
+128Action: replaced cassette with new one from warehouse 
+129Action: replaced control panel and set MF to A5 
+130Action: install correct driver and set up 
+131Action: remove jam and reload paper customer advised 
+132Action: turn off tray protect test ok 
+133Action: replaced and ordered rollers for trays 1 and 2 
+134Action: remove solenoid and adjust to reduce amount of travel. Test ok 
+135Action: tried new main board no joy will get main board and MSOK from office 
+136Action: cleaned blade oredered new belt and blade 
+137Action: replaced main board MSOK HDD and control panel 
+138Action: unable to test from trays 3 and 4 as machine gives L4-31 error fuser fan failure 
+139Action: replaced fuser roller and bearings 
+140Action: waste box not fully in. remove box and fit new. remove blockage and tested ok 
+141Action: return machine to workshop 
+142Action: reboot machine and test swipe card operation 
+143Action: entered SIM 65-1 to calibrate, constant bleeping. Power down and reboot. Calibrate using SIM 65-1 tested with customer 
+144Action: replaced both fuser fans, inpit and output assembly and tray 1 ppu assembly 
+145Action: fitted parts 
+146Action: removed fuser clean and inspect requires new 
+147Action: 8 sheets of paper jammed in fuser exit. Remove paper and replaced tray 5 ppu rollers 
+148Action: clean coronas and lasers tested with customer ok 
+149Action: remove r/h door and clean all rollers and sensors. removed built up crud on black feed rollers tested with customer ok 
+150Action: fuser belt replaced recently but pressure roller was not, also oneway gear for fuser belt missing 
+151Action: machine working on arrival, replaced trays 3/4 pickup rollers, tested no jams 
+152Action: replaced bk dev drum and charger, refurb fuser fitted ppu rollers 
+153Action: replaced fuser 
+154Action: remove fuser and clean roller, tested ok 
+155Action: replaced black drum and charger, itb1 belt and blade tray 1 ppu 
+156Action: remove r/h door, fuser and input assembly, Clean input assembly, reform frame at top of door where deflector sits and replaced lwr fuser roller 
+157Action: checked drums. ITB and fuser all look ok 
+158Action:  
+159Action: cleaned slip glass and advised customer 
+160Action: replaced ppu rollers to tray 1 
+161Action: remove solenoid and reform stop plate 
+162Action:  
+163Action: machine unplugged from power on arrival. reconnect and test scanning with customer ok 
+164Action: service done 
+165Action: remove jam and tested, machine performed better when paper turned over, customer not using our paper 
+166Action: update firmware 
+167Action: remove cassette and reset 
+168Action: test lifter motor FNM110 in SIM3-3 ok. Cable for finisher rubbing againt wall at rear. move machine and lock feet 
+169Action: reset TA 
+170Action: cleaned paper path, replaced PPU rollers to trays 1 and 2 removed paper from output of finisher, vertical guide not in place, paper poorly loaded in tray 2 
+171Action: adf working ok on arrival, machine very dirty drum dev and charger all worn clean and replaced parts 
+172Action: fitted black imaging unit 
+173Action: drive gear broken off print cartridge so drum not turning 
+174Action: strip adf found 2 post-it notes in paper pickup area. remove and tested adf ok 
+175Action: replaced ITB and tested ok 
+176Action: nff 
+177Action: tested motor FNM5 and sensor FNPS7 in sim 3-3 both ok 
+178Action: customer had different paper but still jam issues 
+179Action: both cassette lock plates for tandem tray broken, ordered new 
+180Action: CLEAN MACHINE FAULT RE-OCCURS 
+181Action: replace drum charger and cleaner blade 
+182Action: black dev flat concentration poor replaced black dev 
+183Action: catches taken from MX-6500 in warehouse and fitted 
+184Action: replaced cyan dev and full calibration done 
+185Action: remove bluetack from path and refit white pressure plate, test operation ok 
+186Action: paper in tray 1 curled / meter not advanced so jam not removed / box in way of R/H door. Remove jam, replace paper and move box, requires Cyan toner customer doesn't have any 
+187Action: replaced yellow drum, magenta/yellow devs, yellow/cyan chargers 
+188Action: replaced fuser as ordered by Greg, ongoing jamming issue still not resolved 
+189Action: part ordered doesn't fit, re-order top cover (CCOV-0122US51) 
+190Action: fitted new drum charger and black dev 
+191Action: no re-ocurrence of error code, did full calibration and tested ok 
+192Action: repaced ppu rollers and fuser parts 
+193Action: jams today customer back on their original paper 
+194Action: stripped finiser stopped jamming sadle stich stapler needs replacing , sale and service advised 
+195Action: inside of front door full of waste toner. cleaned and tested ok 
+196Action: removed plasic piece trapped in cyan drum and test with customer 
+197Action: reboot machine jobs now printing 
+198Action: replaced web and pickup rollers to both trays 
+199Action: order shuffle belts in finsher 
+200Action: belts in 
+201Action: clean print engine and test 
+202Action: spoken to Lexmark and advised to update firmware (Case number 1-298120918510) 
+203Action: order web drum and mk kit c/q very poor 
+204Action: replaced ITB belt and blade, Input data from office machine no better. Tweeked settings to get best result 
