@@ -8,7 +8,8 @@ from time import sleep
 import os
 import webbrowser
 
-# dictionary or models and manuals
+# dictionary - key is model number and type, value is path to the manual
+
 request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '6500H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '7040H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
@@ -30,6 +31,10 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '7580H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_handy_guide.pdf',
            '7090H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_handy_guide.pdf',
            '8090H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_handy_guide.pdf',
+           '2651H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_handy_guide.pdf',
+           '3051H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_handy_guide.pdf',
+           '3551H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_handy_guide.pdf',
+           '4051H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_handy_guide.pdf',
           'M3070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
           'M3570H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
           'M4070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
@@ -67,6 +72,16 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
           '7580S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_service_manual.pdf',
           '7090S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_service.pdf',
           '8090S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_service.pdf',
+          '2651S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3051S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3551S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '4051S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3061S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3561S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '4061S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3071S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '3571S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
+          '4071S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_service_manual.pdf',
           'M3070S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_service_manual.pdf',
           'M3570S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_service_manual.pdf',
           'M4070S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_service_manual.pdf',
@@ -124,6 +139,31 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
           '7580P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_parts_guide.pdf',
           '7090P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_parts_guide.pdf',
           '8090P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_parts_guide.pdf',
+          '6071P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '5071P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '4071P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '4061P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3571P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3561P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3071P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3061P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '6171P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '5171P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '4171P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3661P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3161P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '2661P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '6051P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '5051P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '4051P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3551P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3051P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '2651P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '6151P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '5151P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '4151P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '3651P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+          '2630P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
           'M654P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
           'M754P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
           'M904': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
@@ -138,7 +178,40 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
           'M565P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
           'M364P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
           'M464P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
-          'M564P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf'}
+          'M564P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+
+          'M2630U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M3050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M3070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M3550U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M3570U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M4050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M4070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M5050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M5070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M6050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          'M6070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
+          '2651U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3561U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3051U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3571U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3061U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '4051U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3071U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '4061U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '3551U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+          '4071U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
+
+          '2651I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3051I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3551I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '4051I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3061I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3561I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '4061I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '3571I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+          '4071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf'}
 
 
 # function to clear screen
@@ -151,33 +224,35 @@ wiper()
 # get model and type
 def main():
     print(''' 
-      MMMMMMM   AAAAAA   NN   N   U    U   AAAAAA   L
-      M  M  M   A    A   N N  N   U    U   A    A   L
-      M  M  M   AAAAAA   N  N N   U    U   AAAAAA   L
-      M     M   A    A   N   NN   U    U   A    A   L
-      M     M   A    A   N   NN   UUUUUU   A    A   LLLLLL
+                                                 MMMMMMM   AAAAAA   NN   N   U    U   AAAAAA   L
+                                                 M  M  M   A    A   N N  N   U    U   A    A   L
+                                                 M  M  M   AAAAAA   N  N N   U    U   AAAAAA   L
+                                                 M     M   A    A   N   NN   U    U   A    A   L
+                                                 M     M   A    A   N   NN   UUUUUU   A    A   LLLLLL
 
 
-      FFFFFFF   IIIIII   NN   N   DDDDD    EEEEEE   RRRRR
-      F           II     N N  N   D    D   E        R    R
-      FFFF        II     N  N N   D    D   EEEE     RRRRRR
-      F           II     N   NN   D    D   E        R   R
-      F         IIIIII   N   NN   DDDDD    EEEEEE   R    R
+                                                 FFFFFFF   IIIIII   NN   N   DDDDD    EEEEEE   RRRRR
+                                                 F           II     N N  N   D    D   E        R    R
+                                                 FFFF        II     N  N N   D    D   EEEE     RRRRRR
+                                                 F           II     N   NN   D    D   E        R   R
+                                                 F         IIIIII   N   NN   DDDDD    EEEEEE   R    R
 ''')
 
     print('''    Key:
     M = Mono
     H = Handy Guide
     S = Sevice Manual
-    P = Parts Catalogue\n\n''')
+    P = Parts Catalogue
+    U = User Manual
+    I = Installation Manual\n\n''')
 
     print('''    Enter the model number.
     supperceeded by an 'M' 
     if it is a mono machine.
     Followed by the manual type 
-    an 'H' an 'S' or a 'P'\n
+    an 'H' an 'S' a 'P' a 'U' or an 'I'\n
     eg: 3070H would request the MX-3070 handy guide
-       M3070H would request the MX-M3070 handy guide\n\n''')
+        M3070H would request the MX-M3070 handy guide\n\n''')
 
 #    try:
 #        choice = input('>>> ')
