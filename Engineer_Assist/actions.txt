@@ -202,3 +202,16 @@
 202Action: spoken to Lexmark and advised to update firmware (Case number 1-298120918510) 
 203Action: order web drum and mk kit c/q very poor 
 204Action: replaced ITB belt and blade, Input data from office machine no better. Tweeked settings to get best result 
+205Action: whilst fitting new fuser rollers noticed fuser lamp blown. machine errored on restart. Sourced new fuser from Sharp (Kev Barnet) fitted and tested ok 
+206Action: clean optics and calibrate, no better. Set scan to folder to full colour as default 
+207Action: replaced all colour devs and black drum and charger 
+208Action: cleaned laser slip glass and print engine. Dev has been cropped. Machine has done 916 copies since last visit 
+209Action: replaced top cover 
+210Action: update firmware 
+211Action: clean print engine 
+212Action: cleaned print engine and replaced ppu rollers requires fuser roller and belt 
+213Action: fitted fuser roller belt and bearings / black drum and mk kit 
+214Action: clean and test ok requires parts 
+215Action: possible HVT TC PWB fault, teplaced same 
+216Action: spokie to sharp, tested scan to USB still slow, set to B/W 200dpi with background adjust set to -3 
+217Action: replaced black drum / mk refurb fuser replaced all colour drum seals 

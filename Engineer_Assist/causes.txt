@@ -202,3 +202,16 @@
 202Cause: firmware 
 203Cause: lower web run out 
 204Cause: possible laser issue 
+205Cause: fuser temp low 
+206Cause: scan to folder setting defaulting to greyscale 
+207Cause: cyan dev had dumped 
+208Cause: laser slip glass dirty 
+209Cause: rtf cover slip glass scratched 
+210Cause: possible HVT error as history shows C4-00 trouble
+211Cause: dirty corona 
+212Cause: fuser roller / belt worn 
+213Cause: lines 
+214Cause: coronas 
+215Cause: blank prints 
+216Cause: scanning at too high res/full colour and on coloured paper 
+217Cause: drum seals / fuser / black drum 

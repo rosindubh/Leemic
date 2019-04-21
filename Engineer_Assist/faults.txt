@@ -202,3 +202,16 @@
 202Fault: screen lock and firmware error 900.00 
 203Fault: fk4 
 204Fault: colour misregistered 
+205Fault: H$-02 
+206Fault: not scanning in colour 
+207Fault: ca maintenance 
+208Fault: F2-40 
+209Fault: rtf top cover 
+210Fault: sometimes prints blank 
+211Fault: black lines 
+212Fault: jammed 
+213Fault: rtf 
+214Fault: lines 
+215Fault: rtf 
+216Fault: scans taking too long 
+217Fault: offsetting rtf 

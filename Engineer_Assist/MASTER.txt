@@ -1302,7 +1302,7 @@ Parts: none
 
 Date: (25, 3, 2019) Time: (13, 5, 42) 
 Machine type: sharp mx-5070v 
-Fault: H%-01 error 
+Fault: H5-01 error 
 Cause: 5 jams on the run 
 Action: paper in tray 1 curled / meter not advanced so jam not removed / box in way of R/H door. Remove jam, replace paper and move box, requires Cyan toner customer doesn't have any 
 Parts: none 
@@ -1434,4 +1434,97 @@ Fault: colour misregistered
 Cause: possible laser issue 
 Action: replaced ITB belt and blade, Input data from office machine no better. Tweeked settings to get best result 
 Parts: MX-510B1, MX-510TL 
+
+Date: (8, 4, 2019) Time: (10, 14, 8) 
+Machine type: sharp mx-m754 
+Fault: H$-02 
+Cause: fuser temp low 
+Action: whilst fitting new fuser rollers noticed fuser lamp blown. machine errored on restart. Sourced new fuser from Sharp (Kev Barnet) fitted and tested ok 
+Parts: Full Fuser 2nd hand 
+
+Date: (8, 4, 2019) Time: (12, 30, 53) 
+Machine type: sharp mx-2614 
+Fault: not scanning in colour 
+Cause: scan to folder setting defaulting to greyscale 
+Action: clean optics and calibrate, no better. Set scan to folder to full colour as default 
+Parts: none 
+
+Date: (8, 4, 2019) Time: (15, 23, 42) 
+Machine type: sharp mx-2610 
+Fault: ca maintenance 
+Cause: cyan dev had dumped 
+Action: replaced all colour devs and black drum and charger 
+Parts: mx-36grsa, mx-36gvsa, mx-230mk 
+
+Date: (8, 4, 2019) Time: (16, 24, 30) 
+Machine type: sharp mx-264n 
+Fault: F2-40 
+Cause: laser slip glass dirty 
+Action: cleaned laser slip glass and print engine. Dev has been cropped. Machine has done 916 copies since last visit 
+Parts: reccommend replace dev if re-occurs (MX-312GV) 
+
+Date: (11, 4, 2019) Time: (11, 13, 35) 
+Machine type: sharp mx-c301w 
+Fault: rtf top cover 
+Cause: rtf cover slip glass scratched 
+Action: replaced top cover 
+Parts: CCOV-0112US51 
+
+Date: (11, 4, 2019) Time: (13, 34, 28) 
+Machine type: sharp mx-3114 
+Fault: sometimes prints blank 
+Cause: possible HVT error as history shows C4-00 trouble
+Action: update firmware 
+Parts: ordered HVT TC PWB RDENU0154FCP2 
+
+Date: (11, 4, 2019) Time: (14, 9, 7) 
+Machine type: sharp mx2614 
+Fault: black lines 
+Cause: dirty corona 
+Action: clean print engine 
+Parts: none 
+
+
+
+Date: (11, 4, 2019) Time: (16, 35, 19) 
+Machine type: sharp mx-5050 
+Fault: jammed 
+Cause: fuser roller / belt worn 
+Action: cleaned print engine and replaced ppu rollers requires fuser roller and belt 
+Parts: requires MX-600FB AND MX-607LH 
+
+Date: (12, 4, 2019) Time: (13, 10, 54) 
+Machine type: sharp mx-5050 
+Fault: rtf 
+Cause: lines 
+Action: fitted fuser roller belt and bearings / black drum and mk kit 
+Parts: mx-607mk mx-60grsa nbrgy0957fczz * 2 mx-600fb mx-607lh 
+
+Date: (12, 4, 2019) Time: (16, 15, 42) 
+Machine type: sharp mx-4141 
+Fault: lines 
+Cause: coronas 
+Action: clean and test ok requires parts 
+Parts: requires MX-361FB, MX-510LH, MX-510WB, PSEL-1134FCZZ 3 off PSEL-1133FCZ1 3 off 
+
+Date: (16, 4, 2019) Time: (10, 3, 58) 
+Machine type: sharp mx-3114 
+Fault: rtf 
+Cause: blank prints 
+Action: possible HVT TC PWB fault, teplaced same 
+Parts: rdenu0154fcp2 
+
+Date: (16, 4, 2019) Time: (14, 22, 15) 
+Machine type: sharp mx-m3070 
+Fault: scans taking too long 
+Cause: scanning at too high res/full colour and on coloured paper 
+Action: spokie to sharp, tested scan to USB still slow, set to B/W 200dpi with background adjust set to -3 
+Parts: none 
+
+Date: (18, 4, 2019) Time: (11, 52, 24) 
+Machine type: sharp mx-4141 
+Fault: offsetting rtf 
+Cause: drum seals / fuser / black drum 
+Action: replaced black drum / mk refurb fuser replaced all colour drum seals 
+Parts: psel-133fcz1, psel-1134fczz, mx-510lh, mx-510wb, mx361fb, mx31grsa, mx-510mk 
 

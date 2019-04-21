@@ -17,8 +17,8 @@ import webbrowser
 # finally add an input() request to halt the program followed by the main() function
 
 # set variables
-MAKE = ['SHARP', 'SAMSUNG', 'LEXMARK']
-SHARP_TYPE = ['HANDY', 'SERVICE', 'PARTS']
+MAKE = ['SHARP', 'SAMSUNG', 'LEXMARK', '999']
+SHARP_TYPE = ['999', 'HANDY', 'SERVICE', 'PARTS']
 SAMSUNG_TYPE = ['SERVICE', 'PARTS']
 MODELS = ['999', '654', '754', '904', '1054', '1204', '1055', '1205', '3050', '3550', '4050', '5050', '6050', '3060', '3070', '3560', '3570', '4060',
           '4070', '5070', '6070', '6240', '7040', '6500', '7500', '6580', '7580', '6170', '5170', 
@@ -49,7 +49,10 @@ def sharp_type():
         sharp_service()
     elif type_choice == 'PARTS':
         sharp_parts()
-
+    elif type_choice == '999':
+        print('Returning to main menu...')
+        sleep(3)
+        main()
 # sharp handy function
 def sharp_handy():
     wiper()
@@ -92,6 +95,8 @@ def sharp_handy():
         input('Enter to continue...')
         main()
     elif model_number == '999':
+        print('Returning to main menu...')
+        sleep(3)
         main()
 # sharp service function
 def sharp_service():
@@ -139,6 +144,8 @@ def sharp_service():
         input('Enter to continue...')
         main()
     elif model_number == '999':
+        print('Returning to main menu...')
+        sleep(3)
         main()
 
 
@@ -174,6 +181,8 @@ def sharp_parts():
         input('Enter to continue...')
         main()
     elif model_number == '999':
+        print('Returning to main menu...')
+        sleep(3)
         main()
 
 
@@ -185,7 +194,7 @@ def samsung():
 
 # lexmark function
 def lexmark():
-    print('need to write the lexmark function to find model')
+    SERVICE_1 = ['M5255', 'M5270']
     wiper()
     print('\t\t\t\tEnter the model number')
     model_number = input('\t\t\t\t>>>')
@@ -202,11 +211,13 @@ def lexmark():
         webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Lexmark/C6160/c6160_sm.pdf')
         input('Enter to continue...')
         main()
-    elif model_number == 'M5255' or 'M5270':
+    elif model_number in SERVICE_1:
         webbrowser.open_new('/media/phil/Phil_Welsby/Manufacturers/Lexmark/M52_XX/M52_XX_service.pdf')
         input('Enter to continue...')
         main()
     elif model_number == '999':
+        print('Returning to main menu')
+        sleep(3)
         main()
 
 # get the make of the machine from user
@@ -237,6 +248,10 @@ def main():
         samsung()
     elif make == 'LEXMARK':
         lexmark()
+    elif make == '999':
+        print('Goodbye')
+        sleep(3)
+        wiper()
 
 
 main()

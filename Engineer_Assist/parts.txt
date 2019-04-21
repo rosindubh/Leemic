@@ -202,3 +202,16 @@
 202Parts: Firmware version 052.299 
 203Parts: requires mx-754dr, mx-754mk, mx-754wb, mx-754hk
 204Parts: MX-510B1, MX-510TL 
+205Parts: Full Fuser 2nd hand 
+206Parts: none 
+207Parts: mx-36grsa, mx-36gvsa, mx-230mk 
+208Parts: reccommend replace dev if re-occurs (MX-312GV) 
+209Parts: CCOV-0112US51 
+210Parts: ordered HVT TC PWB RDENU0154FCP2 
+211Parts: none 
+212Parts: requires MX-600FB AND MX-607LH 
+213Parts: mx-607mk mx-60grsa nbrgy0957fczz * 2 mx-600fb mx-607lh 
+214Parts: requires MX-361FB, MX-510LH, MX-510WB, PSEL-1134FCZZ 3 off PSEL-1133FCZ1 3 off 
+215Parts: rdenu0154fcp2 
+216Parts: none 
+217Parts: psel-133fcz1, psel-1134fczz, mx-510lh, mx-510wb, mx361fb, mx31grsa, mx-510mk 
