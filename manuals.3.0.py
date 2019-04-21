@@ -123,7 +123,22 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
           '6580P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_parts_guide.pdf',
           '7580P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-6580/MX-6580_7580_parts_guide.pdf',
           '7090P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_parts_guide.pdf',
-          '8090P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_parts_guide.pdf'}
+          '8090P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-7090_8090/MX-7090_8090_parts_guide.pdf',
+          'M654P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
+          'M754P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
+          'M904': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
+          'M1054P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
+          'M1204P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
+          'M1055P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_parts.pdf',
+          'M1205P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_parts.pdf',
+          'M560P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M460P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M365P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M465P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M565P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M364P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M464P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+          'M564P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf'}
 
 
 # function to clear screen
