@@ -10,7 +10,7 @@ import webbrowser
 
 # dictionary - key is model number and type, value is path to the manual
 
-request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
+dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '6500H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '7040H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '7500H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
@@ -40,8 +40,7 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '3561H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '3571H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '4061H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
-           '4071H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf', 
-
+           '4071H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            'M3070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M3570H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M4070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
@@ -57,7 +56,6 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'M365H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M465H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M565H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
-
            '6240S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '7040S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '6500S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/MX6500-7500_SM_latest.pdf',
@@ -118,7 +116,6 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'C6160S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C6160/c6160_sm.pdf',
            'M5255S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/M52_XX/M52_XX_service.pdf',
            'M5270S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/M52_XX/M52_XX_service.pdf',
-
            '6240P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '7040P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '6540P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
@@ -177,7 +174,7 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '2630P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
            'M654P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
            'M754P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
-           'M904': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
+           'M904P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
            'M1054P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
            'M1204P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
            'M1055P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_parts.pdf',
@@ -190,7 +187,6 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'M364P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
            'M464P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
            'M564P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
-
            'M2630U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
            'M3050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
            'M3070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
@@ -224,19 +220,20 @@ request = {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '3071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '3571I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '4071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
-
            'TOUCH': '/home/phil/Documents/Touch_Panel_Operation.pdf'}
 
 
 # function to clear screen
 def wiper():
+    '''A function to clear the screen'''
     print('\n' * 100)
 
 # clear screen
 wiper()
 
-# get model and type
+# main program
 def main():
+    '''This is the main function, starts the program'''
     print(''' 
                                                  MMMMMMM   AAAAAA   NN   N   U    U   AAAAAA   L
                                                  M  M  M   A    A   N N  N   U    U   A    A   L
@@ -269,29 +266,23 @@ def main():
     eg: 3070H would request the MX-3070 handy guide
         M3070H would request the MX-M3070 handy guide\n\n''')
 
-#    try:
-#        choice = input('>>> ')
-#        choice = choice.upper()
-#        manual = request[choice]
-#        webbrowser.open_new(manual)
-#        input('Enter to continue...')
-#        wiper()
-#        main()
-#    except:
-#        print('No manual for', choice)
-#        input('Enter to continue...')
-#        wiper()
-#        main()
+    # get user input
 
     choice = input('>>> ')
     if choice == '999':
         print('Goodbye...')
         sleep(3)
         wiper()
+    elif choice == 'keys':	# this is  a hidden command not visible on the openenig credits
+        file = open('/home/phil/my_python_programs/LIST_OF_KEYS') # file containing list of keys 
+        whole_file = file.read()                                  # check regular if new keys have been added
+        print(whole_file)
+        input('Enter to continue...')
+        main()
     else:
         try:
             choice = choice.upper()
-            manual = request[choice]
+            manual = dict[choice]
             webbrowser.open_new(manual)
             input('Enter to continue...')
             wiper()
