@@ -41,6 +41,7 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '3571H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '4061H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '4071H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
+           '2630H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/Handy-Guide-Sphinx-MX2630.pdf',
            'M3070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M3570H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M4070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
@@ -56,6 +57,7 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'M365H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M465H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M565H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
+           '2630S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/service manual.pdf',
            '6240S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '7040S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '6500S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/MX6500-7500_SM_latest.pdf',
@@ -116,6 +118,19 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'C6160S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C6160/c6160_sm.pdf',
            'M5255S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/M52_XX/M52_XX_service.pdf',
            'M5270S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/M52_XX/M52_XX_service.pdf',
+           '3050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '3550VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '4050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '3060VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '3560VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '4060VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '3070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '3570VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '4070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_service_manual.pdf',
+           '5070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           '6070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           '5050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           '6050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '6240P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '7040P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '6540P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
@@ -172,6 +187,19 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '4151P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
            '3651P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
            '2630P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_parts_manual.pdf',
+           '6070VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '5070VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '4070VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3570VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3070VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '4060VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3560VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3060VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '6050VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '5050VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '4050VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3550VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
+           '3050VP': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_parts.pdf',
            'M654P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
            'M754P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M754/MXM654-MXM754-KB13_PG_.pdf',
            'M904P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_PG.pdf',
@@ -187,6 +215,17 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'M364P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
            'M464P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
            'M564P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/MXM364-M365-M464-M465-M564-M565_PG.pdf',
+           'M6070P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M5070P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M4070P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M3570P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M3070P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M6050P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M5050P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M4050P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M3550P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M3050P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'M2630P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
            'M2630U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
            'M3050U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
            'M3070U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
@@ -220,6 +259,20 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '3071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '3571I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '4071I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
+           '3050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '3550VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '4050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '3060VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '3560VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '4060VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '3070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '3570VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+           '4070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
+
+           '5070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
+           '6070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
+           '5050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
+           '6050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
            'TOUCH': '/home/phil/Documents/Touch_Panel_Operation.pdf'}
 
 
@@ -251,6 +304,7 @@ def main():
 
     print('''    Key:
     M = Mono
+    V = 'V' version of Sharp model eg: 3070V
     H = Handy Guide
     S = Sevice Manual
     P = Parts Catalogue
@@ -259,29 +313,38 @@ def main():
     Touch = Touch Panel Operation\n\n''')
 
     print('''    Enter the model number.
-    supperceeded by an 'M' 
+    superceeded by an 'M' 
     if it is a mono machine.
-    Followed by the manual type 
+    Followed by a V if it is a Sharpp V model
+    Then manual type
     an 'H' an 'S' a 'P' a 'U' or an 'I'\n
-    eg: 3070H would request the MX-3070 handy guide
-        M3070H would request the MX-M3070 handy guide\n\n''')
+    eg: 3070H  would request the MX-3070 handy guide
+        M3070H would request the MX-M3070 handy guide
+        3070VP would request the MX-3070V parts catalogue
+        Note   Handy Guide for 'V' models is the same an 'N' type\n\n''')
 
     # get user input
 
     choice = input('>>> ')
+    choice = choice .upper()
     if choice == '999':
         print('Goodbye...')
-        sleep(3)
+        sleep(1.5)
         wiper()
-    elif choice == 'keys':	# this is  a hidden command not visible on the openenig credits
-        file = open('/home/phil/my_python_programs/LIST_OF_KEYS') # file containing list of keys 
-        whole_file = file.read()                                  # check regular if new keys have been added
-        print(whole_file)
+    elif choice == 'KEYS':
+   # elif choice == 'keys' or choice == 'KEYS':	# this is  a hidden command not visible on the openenig credits
+        list_of_keys = []                       # it displays a list of all the keys in the dictionary
+        for k in dict:
+            list_of_keys.append(k)
+        list_of_keys.sort()
+        for item in list_of_keys:
+            print(item)
         input('Enter to continue...')
+        wiper()
         main()
     else:
         try:
-            choice = choice.upper()
+           # choice = choice.upper()
             manual = dict[choice]
             webbrowser.open_new(manual)
             input('Enter to continue...')
