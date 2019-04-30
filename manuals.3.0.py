@@ -10,7 +10,9 @@ import webbrowser
 
 # dictionary - key is model number and type, value is path to the manual
 
-dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
+dict   =  {'2614H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
+           '3114H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
+           '6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '6500H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '7040H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
            '7500H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Handy Guide Version 3.3.pdf',
@@ -57,6 +59,8 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            'M365H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M465H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
            'M565H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M565/Handy-Guide-Orion-Lotus-MXM365N-MXM465N-MXM565N.pdf',
+           '2614S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
+           '3114S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
            '2630S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/service manual.pdf',
            '6240S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '7040S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
@@ -131,6 +135,10 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '6070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '5050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '6050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           '2614P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N PWB Parts.pdf',
+           '3114P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N PWB Parts.pdf',
+           '2615P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N PWB Parts.pdf',
+           '3115P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N PWB Parts.pdf',
            '6240P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '7040P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
            '6540P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/Parts Guide.pdf',
@@ -249,6 +257,9 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '4071U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
            'C4100U': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C4150/C4100_C4150_user_manual.pdf',
            'C4150U': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C4150/C4100_C4150_user_manual.pdf',
+           '2314I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N install.pdf',
+           '2614I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N install.pdf',
+           '3114I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N install.pdf',
            '2651I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '3051I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
            '3551I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_installation_manual.pdf',
@@ -268,7 +279,6 @@ dict   =  {'6240H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 65
            '3070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
            '3570VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
            '4070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX_3050v/mx-3050v_installation_guide.pdf',
-
            '5070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
            '6070VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
            '5050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
