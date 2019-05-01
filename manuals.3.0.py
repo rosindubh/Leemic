@@ -13,6 +13,8 @@ import webbrowser
 dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
            '2614H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
            '3114H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
+           '4112H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/Handy-Guide-Virgo-MX4112-MX5112.pdf',
+           '5112H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/Handy-Guide-Virgo-MX4112-MX5112.pdf',
            '2640H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 3140/MX2640N - MX3140N - MX3640N Handy Guide.pdf',
            '3140H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 3140/MX2640N - MX3140N - MX3640N Handy Guide.pdf',
            '3640H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 3140/MX2640N - MX3140N - MX3640N Handy Guide.pdf',
@@ -69,6 +71,12 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '2614S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
            '3114S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
            '2630S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/service manual.pdf',
+           '4110S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '5110S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '4111S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '5111S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '4112S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '5112S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
            '6240S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '7040S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6240-7040/MX-6240_service_manual.pdf',
            '6500S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/MX6500-7500_SM_latest.pdf',
@@ -144,6 +152,14 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '6070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '5050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '6050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           '4110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '5110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '4111P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '5111P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '4110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '5110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '4112P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
+           '5112P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
            '2640P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2640-3140-3640/MX-2640-3140-3640 - Main Unit Parts Guide -DEC12.pdf',
            '2314P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Parts - keep for chris.pdf',
            '2614P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Parts - keep for chris.pdf',
@@ -342,12 +358,9 @@ def main():
     I = Installation Manual
     Touch = Touch Panel Operation\n\n''')
 
-    print('''    Enter the model number.
-    superceeded by an 'M' 
-    if it is a mono machine.
-    Followed by a V if it is a Sharpp V model
-    Then manual type
-    an 'H' an 'S' a 'P' a 'U' or an 'I'\n
+    print('''    Enter the model number, superceeded by an 'M' if it is a mono machine.
+    Followed by a V if it is a Sharp V model
+    Then add the manual type, an 'H' an 'S' a 'P' a 'U' or an 'I'\n
     eg: 3070H  would request the MX-3070 handy guide
         M3070H would request the MX-M3070 handy guide
         3070VP would request the MX-3070V parts catalogue
