@@ -50,6 +50,8 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '4061H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '4071H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-3061/MX-3061_Handy_Guide.pdf',
            '2630H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/Handy-Guide-Sphinx-MX2630.pdf',
+           '4141H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Handy Guide.pdf',
+           '5141H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Handy Guide.pdf',
            'M3070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M3570H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
            'M4070H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_HandyGuide.pdf',
@@ -71,7 +73,14 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '2614S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
            '3114S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N Service.pdf',
            '2630S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2630/service manual.pdf',
+           'SLX4250S': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/A3 Colour MFP/SL-X4250/SVC_Manual_MX_X4_eng.pdf',
+           'SLX4300S': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/A3 Colour MFP/SL-X4250/SVC_Manual_MX_X4_eng.pdf',
+           'SLX4220S': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/A3 Colour MFP/SL-X4250/SVC_Manual_MX_X4_eng.pdf',
            '4110S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
+           '4141S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Service Manual Revised June 2014.pdf',
+           '5141S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Service Manual Revised June 2014.pdf',
+           '4140S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Service Manual Revised June 2014.pdf',
+           '5141S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 4140-5141/Service Manual Revised June 2014.pdf',
            '5110S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
            '4111S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
            '5111S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_SM.pdf',
@@ -152,6 +161,7 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '6070VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '5050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
            '6050VS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_service_manual.pdf',
+           'SLX4250P': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/A3 Colour MFP/SL-X4250/SLX4250Parts.pdf',
            '4110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
            '5110P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
            '4111P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-4112N_MX-5112N/MX4112-5112_PG.pdf',
@@ -349,6 +359,7 @@ def main():
 ''')
 
     print('''    Key:
+    SHARP MODELS
     M = Mono
     V = 'V' version of Sharp model eg: 3070V
     H = Handy Guide
@@ -356,7 +367,8 @@ def main():
     P = Parts Catalogue
     U = User Manual
     I = Installation Manual
-    Touch = Touch Panel Operation\n\n''')
+    Touch = Touch Panel Operation
+    SAMSUNG MODELS ADD PREFIX ie (SLX)\n\n''')
 
     print('''    Enter the model number, superceeded by an 'M' if it is a mono machine.
     Followed by a V if it is a Sharp V model
