@@ -450,9 +450,8 @@ def main():
         print('Goodbye...')
         sleep(1.5)
         wiper()
-    elif choice == 'KEYS':
-   # elif choice == 'keys' or choice == 'KEYS':	# this is  a hidden command not visible on the openenig credits
-        list_of_keys = []                       # it displays a list of all the keys in the dictionary
+    elif choice == 'KEYS':    # this is  a hidden command not visible on the opening credits
+        list_of_keys = []     # displays a list of all the keys in the dictionary
         for k in dict:
             list_of_keys.append(k)
         list_of_keys.sort()
@@ -463,7 +462,6 @@ def main():
         main()
     else:
         try:
-           # choice = choice.upper()
             manual = dict[choice]
             webbrowser.open_new(manual)
             input('Enter to continue...')
