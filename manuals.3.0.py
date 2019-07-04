@@ -448,7 +448,8 @@ def main():
     U = User Manual
     I = Installation Manual
     Touch = Touch Panel Operation
-    SAMSUNG MODELS ADD PREFIX ie (SLX)\n\n''')
+    SAMSUNG MODELS ADD PREFIX ie (SLX)
+    LEXMARK MODELS ENTER FULL MODEL NUMBER ie (C6160S) for C6160 Service Manual\n\n''')
 
     print('''    Enter the model number, superceeded by an 'M' if it is a mono machine.
     Followed by a V if it is a Sharp V model
