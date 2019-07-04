@@ -40,6 +40,7 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(12)  Full Calibration
     \t\t\t\t\t\t\t\t\t(13)  Lexmark Acronyms
     \t\t\t\t\t\t\t\t\t(14)  FF-00 notes on MX-6500
+    \t\t\t\t\t\t\t\t\t(15)  Sarp maintenance Codes
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -79,6 +80,8 @@ def main_menu():
         lex_acronyms()
     elif user_choice == '14':
         FF00()
+    elif user_choice == '15':
+        Maintenance_Codes()
 
     elif user_choice == '999':
         wiper()
@@ -865,7 +868,16 @@ def FF00():
     main_menu()
 
 
-
+def Maintenance_Codes():
+    #clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    maintenance_codes = open('/home/phil/Documents/maintenance_codes', 'r')
+    maintenance_codes_whole = maintenance_codes.read()
+    print(maintenance_codes_whole)
+    input('Enter to continue...')
+    main_menu()
 
 
 
