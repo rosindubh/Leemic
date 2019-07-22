@@ -708,6 +708,7 @@ def ip():
 \t\t\t\t\t(1) AST
 \t\t\t\t\t(2) Palletower
 \t\t\t\t\t(3) Oxley
+\t\t\t\t\t(4) Borough Care
 
 
 ''')
@@ -728,6 +729,13 @@ def ip():
         main_menu()
     elif ip_choice == '3':
         ip_file = open('/home/phil/Documents/OXLEY_IP_ADDRESSES')
+        ip_file_whole = ip_file.read()
+        print('\n\n', ip_file_whole)
+        ip_file.close()
+        input('Enter to continue...')
+        main_menu()
+    elif ip_choice == '4':
+        ip_file = open('/home/phil/Documents/BOURGHCARE_IP_ADDRESSES')
         ip_file_whole = ip_file.read()
         print('\n\n', ip_file_whole)
         ip_file.close()
