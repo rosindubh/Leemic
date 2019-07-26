@@ -40,7 +40,8 @@ def main_menu():
     \t\t\t\t\t\t\t\t\t(12)  Full Calibration
     \t\t\t\t\t\t\t\t\t(13)  Lexmark Acronyms
     \t\t\t\t\t\t\t\t\t(14)  FF-00 notes on MX-6500
-    \t\t\t\t\t\t\t\t\t(15)  Sarp maintenance Codes
+    \t\t\t\t\t\t\t\t\t(15)  Sharp maintenance Codes
+    \t\t\t\t\t\t\t\t\t(16)  LC17 Signals
     \t\t\t\t\t\t\t\t\t(999) EXIT\n\n\n\n\n''')
 
 
@@ -82,6 +83,8 @@ def main_menu():
         FF00()
     elif user_choice == '15':
         Maintenance_Codes()
+    elif user_choice == '16':
+        LC17_signals()
 
     elif user_choice == '999':
         wiper()
@@ -888,7 +891,16 @@ def Maintenance_Codes():
     main_menu()
 
 
-
+def LC17_signals():
+    # clear screen
+    def wiper():
+        print('\n' * 100)
+    wiper()
+    lc_17signals = open('/home/phil/Documents/LC17_signals','r')
+    lc_17signals_whole = lc_17signals.read()
+    print(lc_17signals_whole)
+    input('Enter to continue...')
+    main_menu()
 
 
 
