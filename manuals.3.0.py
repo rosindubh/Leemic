@@ -411,7 +411,8 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '6050VI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-xx50v_60v_70v/MX-5050v/MX-5050_5070v_installation_manual.pdf',
            '6500I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Complete Installation Manual including all Peripherals - Updated May 2014.pdf',
            '7500I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 6500-7500/Complete Installation Manual including all Peripherals - Updated May 2014.pdf',
-           'TOUCH': '/home/phil/Documents/Touch_Panel_Operation.pdf'}
+           'TOUCH': '/home/phil/Documents/Touch_Panel_Operation.pdf',
+           'TROUBLE': '/media/phil/Phil_Welsby/Manufacturers/Sharp/troubleshooting.pdf'}
 
 
 # function to clear screen
