@@ -341,6 +341,7 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            'M3550P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
            'M3050P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
            'M2630P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_parts_manual.pdf',
+           'HCFP': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/HCF_Main/Samsung_HCF.pdf',
            'FN21P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN22/MX-FN22_parts.pdf',
            'FN22P': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-FN22/MX-FN22_parts.pdf',
            'M2630U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M3070/MX-M3070_user_manual.pdf',
