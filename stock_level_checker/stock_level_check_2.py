@@ -11,7 +11,7 @@ def wiper():
 # files that part numbers and quantities are to be written to
 master_text = open('MASTER.txt', 'a')
 used_parts = open('usedParts.txt', 'a')
-all_parts = open('allParts.txt', 'a')
+#all_parts = open('allParts.txt', 'a')
 # clear screen
 wiper()
 
@@ -57,8 +57,8 @@ def inventory():
 
     full_list = set()
 
-    used_parts = open('/home/phil/stock_level_checker/usedParts.txt', 'r')
-    all_parts = open('/home/phil/stock_level_checker/allParts.txt', 'a')
+    used_parts = open('/home/phil/my_python_programs/stock_level_checker/usedParts.txt', 'r')
+    all_parts = open('/home/phil/my_python_programs/stock_level_checker/allParts.txt', 'a')
 
     for i in used_parts:
         full_list.add(i)
