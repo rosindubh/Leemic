@@ -17,13 +17,14 @@ wiper()
 
 # get customer and machine type from user
 customer = input('Enter customer: ')
-machine_type = input('Enter machine: ')
+machine_type = input('Enter machine type: ')
 
-# function to add parts and quantities to 2 text files (MASTER.txt and Parts.txt)
+# function to add parts and quantities to 3 text files (MASTER.txt, usedParts.txt and allParts.txt)
 def get_input():
     # files that part numbers and quantities are to be written to
     master_text = open('MASTER.txt', 'a')
     used_parts = open('usedParts.txt', 'a')
+#    all_parts = open('allParts.txt', 'a')
 
     # get user imput
     now = datetime.now()
@@ -31,7 +32,7 @@ def get_input():
     part_number = input('Enter part number: ')
     num = int(input('Enter quantity: '))
 
-    # print inputted data to the MASTER.txt file
+    # print inputted data to the MASTER.txt and  usedParts.txt 
     print('Date:', date, '\tCustomer:', customer, '\tMachine', machine_type, '\tPart Number:', part_number, '\tQuantity:', num, '\n', file = master_text)
     master_text.close()
     for i in range(num):
@@ -56,8 +57,8 @@ def inventory():
 
     full_list = set()
 
-    used_parts = open('/home/phil/Development/stock_level_checker/usedParts.txt', 'r')
-    all_parts = open('/home/phil/Development/stock_level_checker/allParts.txt', 'a')
+    used_parts = open('/home/phil/stock_level_checker/usedParts.txt', 'r')
+    all_parts = open('/home/phil/stock_level_checker/allParts.txt', 'a')
 
     for i in used_parts:
         full_list.add(i)
