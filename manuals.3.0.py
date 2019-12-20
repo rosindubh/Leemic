@@ -12,7 +12,7 @@ import webbrowser
 
 dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
            '2310H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2310-3111/Handy Guide.pdf',
-           '316H':  '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-316/Handy-Guide-Nova-E-MXM266N-MXM316N.pdf',
+           'M316H':  '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-316/Handy-Guide-Nova-E-MXM266N-MXM316N.pdf',
            '3111H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2310-3111/Handy Guide.pdf',
            '2614H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
            '3114H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2314-2614-3114/MX2614N-MX3114N462 Handy Guide.pdf',
