@@ -41,7 +41,8 @@ def get_input():
 
 # continue yes or no
     continue_input = input('Continue y/n ')
-    if continue_input == 'y':
+    continue_input = continue_input.upper()
+    if continue_input == 'Y':
         get_input()
     else:
         print('Goodbye...')
