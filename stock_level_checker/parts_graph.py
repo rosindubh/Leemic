@@ -14,7 +14,8 @@ def value_count(aValue,aList):
 parts = set()
 #all_parts = ['mx-312gr', 'mx-510mk', 'mx-51gvba', 'mx-31grsa']
 all_parts = ['MX510B1', 'MX510TL', 'PSEL-1134FCZZ', 'PSEL1133FCZ1', 'VHi0MFP2504C', 'MX-230B1', 'PHHEZ0844QSZZ',
-              'MX-600FB', 'MX-607LH', 'MX-600FB', 'MX-607LH', 'MX-230B1']
+              'MX-600FB', 'MX-607LH', 'MX-600FB', 'MX-607LH', 'MX-230B1', 'LPLTP0159QSZZ', 'MX-36GRSA', 'MX-36GRSA',
+              'MX-36GRSA', 'MX-36GRSA', 'MX-230MK', 'MX-230MK', 'MX-230MK', 'MX-230MK', 'MX-230TL']
 for i in all_parts:
     parts.add(i)
 x = int(len(parts))
