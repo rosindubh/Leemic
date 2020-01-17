@@ -18,15 +18,21 @@ all_parts = ['MX510B1', 'MX510TL', 'PSEL-1134FCZZ', 'PSEL1133FCZ1', 'VHi0MFP2504
               'MX-36GRSA', 'MX-36GRSA', 'MX-230MK', 'MX-230MK', 'MX-230MK', 'MX-230MK', 'MX-230TL', 'MX-230MK',
               'MX-36GRSA', 'MX-31GRSA', 'MX-31GRSA', 'MX-31GRSA', 'MX-31GRSA', 'MX-510MK', 'MX-510MK', 'MX-510MK',
               'MX-510MK', 'MX-510TL', 'AR-620RT', 'AR-620RT', 'AR-620RT', 'AR-620RT', 'JC90-01063A', 'NROLR2126FCZZ',
-              'NROLR2125FCZZ', 'NROLR2120FCZZ']
+              'NROLR2125FCZZ', 'NROLR2120FCZZ', 'NGERH2122FCZZ', 'MX-361FB', 'MX-510LH', 'MX-310B2', 'MX-510WB',
+              'NROLR2126FCZZ', 'NROLR2125FCZZ', 'NROLR2120FCZZ', 'KNROLR1311FCZZ', 'KNROLR1311FCZZ', 'KNROLR1312FCZZ',
+              'MX-620WB', 'MX-510WB', 'NGERH2122FCZZ', 'MX-230MK', 'MX-230MK', 'MX-230MK', 'MX-36GRSA', 'MX-36GRSA', 'MX-36GRSA',
+              'AR-620RT']
 for i in all_parts:
     parts.add(i)
 x = int(len(parts))
 
 counts =[]
+
 for score in parts:
     counts.append(value_count(score,all_parts))
+
 y=0
+
 for i in parts:
     print(y,i, '= ', counts[y])
     y+=1
