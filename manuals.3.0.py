@@ -120,6 +120,7 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            'XC4150S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/XC4140_XC4150/XC4140_XC4150_sm.pdf',
            'DE17S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE17/MXDS16-DS17-DE17-DE18_SM_GB.pdf',
            'DE18S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-DE17/MXDS16-DS17-DE17-DE18_SM_GB.pdf',
+           '300PS': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-C300p/MXC300P_SM.pdf',
            '4100S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-5000/MX4100N-5000N-4101N-5001N_SM_GB.pdf',
            '5000S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-5000/MX4100N-5000N-4101N-5001N_SM_GB.pdf',
            '4101S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-5000/MX4100N-5000N-4101N-5001N_SM_GB.pdf',
