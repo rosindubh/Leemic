@@ -438,6 +438,7 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            '4071U': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-2651/mx4071_user_manual.pdf',
            'C4100U': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C4150/C4100_C4150_user_manual.pdf',
            'C4150U': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/C4150/C4100_C4150_user_manual.pdf',
+           'SLK7500U': '/media/phil/Phil_Welsby/Manufacturers/Samsung/B2B Technical Product Information/SL-K7500GX/SL-K7500GX_USER.pdf',
            'BM50I': '//media/phil/Phil_Welsby/Manufacturers/Sharp/MX-BM50/MX-BM50_installation_manual.pdf',
            '303WI': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX-C303W/mx-c303winstallation.pdf',
            '2010I': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 2610-3110-3610/Service Manual/MX2310-MX2610-MX3110 Revised Installation Manual.pdf',
