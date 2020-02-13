@@ -215,3 +215,15 @@
 215Parts: rdenu0154fcp2 
 216Parts: none 
 217Parts: psel-133fcz1, psel-1134fczz, mx-510lh, mx-510wb, mx361fb, mx31grsa, mx-510mk 
+218Parts: 2 times belts in finisher mx-fx9 
+219Parts: mx-230b1, mx-230tl 
+220Parts: mx-407mk 
+221Parts: requires RMOTP1034FCPZ, MX-62GRSA, MX-750MK 
+222Parts: mx-62gvba, mx-62grsa,mx-750mk and 2nd hand motor 
+223Parts: mx-36grsa, mx-230mk, mx-360wb 
+224Parts: none 
+225Parts: mx-36grsa, mx-36gvba, mx-230mk 
+226Parts: requires PTME-0348FCZZ MSPRD4117FCZZ LHLDZ2131FCB1 
+227Parts: fitted mx-503mk, mx-503gr, mx-503lh requires RLMPU0801FCZZ 
+228Parts: mx-360wb, mx-230mk, mx-36grsa 
+229Parts: none 

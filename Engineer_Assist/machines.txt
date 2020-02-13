@@ -215,3 +215,15 @@
 215Machine type: sharp mx-3114 
 216Machine type: sharp mx-m3070 
 217Machine type: sharp mx-4141 
+218Machine type: sharp mx-4140 
+219Machine type: sharp mx-2314 
+220Machine type: sharp mx-3560 
+221Machine type: sharp mx-6500 
+222Machine type: sharp mx-6500 
+223Machine type: sharp mx-3140 
+224Machine type: samsung m4020n 
+225Machine type: sharp mx-2640 
+226Machine type: mx-2314 
+227Machine type: sharp mx-283 
+228Machine type: sharp mx-3610 
+229Machine type: smasung slc-2670 

@@ -1528,3 +1528,143 @@ Cause: drum seals / fuser / black drum
 Action: replaced black drum / mk refurb fuser replaced all colour drum seals 
 Parts: psel-133fcz1, psel-1134fczz, mx-510lh, mx-510wb, mx361fb, mx31grsa, mx-510mk 
 
+Date: (24, 4, 2019) Time: (11, 28, 41) 
+Machine type: sharp mx-4140 
+Fault: sheets not all stapling 
+Cause: belts in finisher worn 
+Action: replaced belts in finisher that shuffle pages back 
+Parts: 2 times belts in finisher mx-fx9 
+
+Date: (25, 4, 2019) Time: (9, 57, 3) 
+Machine type: sharp mx-2314 
+Fault: itb belt torn 
+Cause: age 
+Action: replaced belt and blade 
+Parts: mx-230b1, mx-230tl 
+
+Date: (25, 4, 2019) Time: (13, 17, 16) 
+Machine type: sharp mx-3560 
+Fault: yellow lines 
+Cause: dirty corona 
+Action: replaced mk kit for yellow as a precaution, advised customer how to clean chargers 
+Parts: mx-407mk 
+
+Date: (25, 4, 2019) Time: (15, 21, 59) 
+Machine type: sharp mx-6500 
+Fault: noise no black 
+Cause: drum/dev drive motor gears worn 
+Action: ordered new drum/dev drive motor 
+Parts: requires RMOTP1034FCPZ, MX-62GRSA, MX-750MK 
+
+Date: (26, 4, 2019) Time: (11, 45, 35) 
+Machine type: sharp mx-6500 
+Fault: rtf 
+Cause: drum drive motor gears worn 
+Action: fitted drum motor, failed from new, fitted 2nd hand motor, black dev, drum and mk kit 
+Parts: mx-62gvba, mx-62grsa,mx-750mk and 2nd hand motor 
+
+Date: (29, 4, 2019) Time: (11, 17, 59) 
+Machine type: sharp mx-3140 
+Fault: fk3 
+Cause: web out 
+Action: replaced web and cyan drum and mk kit 
+Parts: mx-36grsa, mx-230mk, mx-360wb 
+
+Date: (29, 4, 2019) Time: (12, 15, 40) 
+Machine type: samsung m4020n 
+Fault: not printing 
+Cause: print spooler 
+Action: reboot pc all ok 
+Parts: none 
+
+Date: (29, 4, 2019) Time: (15, 30, 51) 
+Machine type: sharp mx-2640 
+Fault: DK VK maintenance 
+Cause: maintenance call 
+Action: replaced black dev/drum/mk kit 
+Parts: mx-36grsa, mx-36gvba, mx-230mk 
+
+Date: (1, 5, 2019) Time: (9, 48, 49) 
+Machine type: mx-2314 
+Fault: black lines 
+Cause: label stuck to ITB belt 
+Action: replaced belt requires parts 
+Parts: requires PTME-0348FCZZ MSPRD4117FCZZ LHLDZ2131FCB1 
+
+Date: (2, 5, 2019) Time: (14, 40, 45) 
+Machine type: sharp mx-283 
+Fault: lines and creasing 
+Cause: drum / charger and fuser rollers 
+Action: replaced drum and mk kit, whilst fitting fuser rollers connector on lamp terned to dust. requires new lamp 
+Parts: fitted mx-503mk, mx-503gr, mx-503lh requires RLMPU0801FCZZ 
+
+Date: (7, 5, 2019) Time: (15, 54, 59) 
+Machine type: sharp mx-3610 
+Fault: tk1, da,ta,fk3 
+Cause: maintenance call 
+Action: replaced bleck drum and charger, web  
+Parts: mx-360wb, mx-230mk, mx-36grsa 
+
+Date: (8, 5, 2019) Time: (9, 1, 44) 
+Machine type: smasung slc-2670 
+Fault: error 4111 
+Cause: solenoid sticking 
+Action: adjust travel of pawl arm 
+Parts: none 
+
+Date: (18, 7, 2019) Time: (10, 3, 26) 
+Machine type: sharp mx-3640 
+Fault: jammed 
+Cause: fuser belt / roller worn 
+Action: refurb fuser 
+Parts: mx-360wb, mx-361fb, mx-230lh mx-850rt 
+
+Date: (18, 7, 2019) Time: (14, 28, 15) 
+Machine type: samsung slx-4020 
+Fault: jamming 
+Cause: paper in path, customer had pulled tray 1 out whilst machine was running 
+Action: remove small piece of paper from vertical path of tray 1 
+Parts: none 
+
+Date: (23, 8, 2019) Time: (9, 23, 21) 
+Machine type: sharp mx-5050 
+Fault: displaying 'Telephone Mode' 
+Cause: line dead causing on hook 
+Action: tested line found to be dead customer advised 
+Parts: none 
+
+Date: (27, 8, 2019) Time: (15, 42, 46) 
+Machine type: sharp mx-2310u 
+Fault: L4-06 
+Cause: black toner on black TD lift sensor 
+Action: clean sensor and check sensors in SIM 30-01 and test opration in SIM 6-3 
+Parts: none 
+
+Date: (29, 8, 2019) Time: (11, 45, 29) 
+Machine type: sharp mx-m3070 
+Fault: missing pages when scanning 
+Cause: feed roller in adf worn 
+Action: replaced feed roller s and tested ok 
+Parts: mx-850df 
+
+Date: (29, 8, 2019) Time: (11, 45, 29) 
+Machine type: sharp mx-3550 
+Fault: H5-01 
+Cause: paper curled in cassed beind poorley stored  
+Action: removed paper and advised customer how to store and load paper 
+Parts: none 
+
+Date: (29, 8, 2019) Time: (13, 50, 18) 
+Machine type: sharp mx-6070 
+Fault: H5-01 
+Cause: ? 
+Action: checked machine for jammed paper none found 
+Parts: none 
+
+Date: (3, 9, 2019) Time: (14, 54, 23) 
+Machine type: sharp mx-5050 
+Fault: white lines 
+Cause: dirty laser 
+Action: showed customer how to clean, and advised on printing in colour 
+Parts: none 
+

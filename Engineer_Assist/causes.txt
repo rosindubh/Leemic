@@ -215,3 +215,15 @@
 215Cause: blank prints 
 216Cause: scanning at too high res/full colour and on coloured paper 
 217Cause: drum seals / fuser / black drum 
+218Cause: belts in finisher worn 
+219Cause: age 
+220Cause: dirty corona 
+221Cause: drum/dev drive motor gears worn 
+222Cause: drum drive motor gears worn 
+223Cause: web out 
+224Cause: print spooler 
+225Cause: maintenance call 
+226Cause: label stuck to ITB belt 
+227Cause: drum / charger and fuser rollers 
+228Cause: maintenance call 
+229Cause: solenoid sticking 

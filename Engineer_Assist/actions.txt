@@ -215,3 +215,15 @@
 215Action: possible HVT TC PWB fault, teplaced same 
 216Action: spokie to sharp, tested scan to USB still slow, set to B/W 200dpi with background adjust set to -3 
 217Action: replaced black drum / mk refurb fuser replaced all colour drum seals 
+218Action: replaced belts in finisher that shuffle pages back 
+219Action: replaced belt and blade 
+220Action: replaced mk kit for yellow as a precaution, advised customer how to clean chargers 
+221Action: ordered new drum/dev drive motor 
+222Action: fitted drum motor, failed from new, fitted 2nd hand motor, black dev, drum and mk kit 
+223Action: replaced web and cyan drum and mk kit 
+224Action: reboot pc all ok 
+225Action: replaced black dev/drum/mk kit 
+226Action: replaced belt requires parts 
+227Action: replaced drum and mk kit, whilst fitting fuser rollers connector on lamp terned to dust. requires new lamp 
+228Action: replaced bleck drum and charger, web  
+229Action: adjust travel of pawl arm 

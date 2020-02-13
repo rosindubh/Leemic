@@ -183,7 +183,7 @@
 183Fault: rtf 
 184Fault: rtf 
 185Fault: jamming in ADF 
-186Fault: H%-01 error 
+186Fault: H5-01 error 
 187Fault: poor reds / blue lines 
 188Fault: jammed can't clear 
 189Fault: rtf top cover 
@@ -215,3 +215,15 @@
 215Fault: rtf 
 216Fault: scans taking too long 
 217Fault: offsetting rtf 
+218Fault: sheets not all stapling 
+219Fault: itb belt torn 
+220Fault: yellow lines 
+221Fault: noise no black 
+222Fault: rtf 
+223Fault: fk3 
+224Fault: not printing 
+225Fault: DK VK maintenance 
+226Fault: black lines 
+227Fault: lines and creasing 
+228Fault: tk1, da,ta,fk3 
+229Fault: error 4111 
