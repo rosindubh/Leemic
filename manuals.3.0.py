@@ -193,6 +193,7 @@ dict   =  {'2314H': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX Colour/MX 23
            'M1204S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M904/MXM904-M1054-M1204_SM.pdf',
            'M1055S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_service_manual.pdf',
            'M1205S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX-M1205/MX-M1205_service_manual.pdf',
+           'M3250S': '/media/phil/Phil_Welsby/Manufacturers/Lexmark/M3250/M3250_service.pdf',
            'M365S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MX M364-365N Service Manual.pdf',
            'M364S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MX M364-365N Service Manual.pdf',
            'M465S': '/media/phil/Phil_Welsby/Manufacturers/Sharp/MX-B-W/MX M364/MX M364-365N Service Manual.pdf',
