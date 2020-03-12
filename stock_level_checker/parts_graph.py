@@ -36,7 +36,7 @@ all_parts = ['MX-510B1', 'MX-510TL', 'PSEL-1134FCZZ', 'PSEL1133FCZ1', 'VHi0MFP25
               'MX-361FB', 'MX-510LH', 'AR-620RT', 'AR-620RT', 'AR-620RT', 'AR-620RT', 'MX-60GRSA', 'MX-607MK', 'MX-607KLH', 'MX-600FB', 'MX-620WB',
               'AR-620RT' ,'NGERH1421FCZ1','NGERH1851FCZZ', 'MX-360WB', 'MX-361FB', 'MX-230LH', 'MX-601B1', 'MX-607TL', 'NROLR2KITFCZZ',
               'MX-61GVBA', 'MX-60GRSA', 'MX-407MK', 'MX-600FB', 'MX-607LH', 'NROLR2KITFCZZ', 'MX-600FB', 'MX-607LH', 'MX-36GRSA', 'MX-230MK',
-              'MX-230B1', 'MX-230TL', 'MX-850DF']
+              'MX-230B1', 'MX-230TL', 'MX-850DF', 'MX-62GRSA', 'MX-750MK', 'MX-62GVSB']
 for i in all_parts:
     parts.add(i)
 x = int(len(parts))
